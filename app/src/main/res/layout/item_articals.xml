@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp">
+
+            </View>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.8">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/articleprofile"
+                        android:layout_width="@dimen/_42sdp"
+                        android:layout_height="@dimen/_42sdp"
+                        android:src="@drawable/profilepic">
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="5.2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/writername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold"
+                        android:maxLines="1"
+                        android:text="Ketty Perry"
+                        android:textColor="@color/black"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/writerDesignation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_regular"
+                        android:maxLines="1"
+                        android:text="Lecturer"
+                        android:textColor="#666666"
+                        android:textSize="13sp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="end">
+
+
+                    <TextView
+                        android:id="@+id/pubDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:text="21th April,2020"
+                        android:textColor="@color/black"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato_bold"
+                    android:maxLines="2"
+                    android:text="Lorem ipsum dolor sit amet,\nconsectetuer adipiscing elit, sed diam"
+                    android:textColor="@color/black"
+                    android:textSize="16sp">
+
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/articlemain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:fontFamily="@font/lato_regular"
+                android:maxLines="7"
+                android:text="Lorem ipsum dolor sit amet, consectetuer\nadipiscing elit, sed diam nonummy nibh euismod\n
+tincidunt ut laoreet Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit, sed diam nonummy
+nibh euismod tincidunt ut laoreet Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit, sed
+diam nonummy nibh euismod"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/readmore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_regular"
+                        android:gravity="center"
+                        android:text="Read more"
+                        android:textColor="#009245"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/dislike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:fontFamily="@font/lato_regular"
+                        android:gravity="center"
+                        android:text="211"
+                        android:textColor="#009245"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <ImageView
+
+                        android:id="@+id/imagedislike"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/dislikewhite">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_50sdp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:fontFamily="@font/lato_regular"
+                        android:gravity="center"
+                        android:text="321"
+                        android:textColor="#009245"
+                        android:textSize="12sp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/imagelike"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/likewhite">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

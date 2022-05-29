@@ -1,0 +1,6 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Add splash png file drawable here  -->
+    <item android:drawable="@drawable/toolbarbackground"/>
+
+</layer-list>

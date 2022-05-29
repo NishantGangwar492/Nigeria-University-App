@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        tools:context=".ui.homepage.ui.weeklycontest.WeeklyContest">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:elevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/toolbarbackground"
+                    app:elevation="0dp"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageButton
+                                android:id="@+id/backbtn"
+                                android:layout_width="@dimen/_36sdp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:background="@null"
+                                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:weightSum="5"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6.5"
+                            android:gravity="center">
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_weight="4"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Weekly Contest"
+                                android:textColor="@color/white"
+                                android:textSize="16sp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:id="@+id/leaderboardfromweekly"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/_24sdp"
+                                android:layout_weight="1"
+                                android:src="@drawable/leadericon">
+
+                            </ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/coinview"
+                            android:visibility="gone"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/_24sdp"
+                                android:layout_height="@dimen/_22sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/pts"></ImageView>
+
+
+                            <TextView
+                                android:id="@+id/points"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_10sdp">
+
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/appBarLayout">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/appBarLayout"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <Button
+                                android:id="@+id/tvfull"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_60sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/buttonborder"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Participate In Weekly Contest"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="@dimen/_13sdp"
+                                android:visibility="visible">
+
+                            </Button>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_70sdp"
+                                android:layout_below="@+id/tvfull"
+                                android:gravity="center">
+
+
+                                <com.github.ybq.android.spinkit.SpinKitView
+                                    android:id="@+id/spin_kit"
+                                    style="@style/SpinKitView.Large.ThreeBounce"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tvfull"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    android:visibility="gone"
+                                    app:SpinKit_Color="@color/add_slider_text_color" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:layout_marginLeft="@dimen/_20sdp"
+                            android:layout_marginEnd="@dimen/_20sdp"
+                            android:layout_marginRight="@dimen/_20sdp"
+                            android:background="@drawable/leaderboardwhite"
+                            android:elevation="@dimen/_5sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_20sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Contest Starts In"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="@dimen/_15ssp" />
+
+                            <TextView
+                                android:id="@+id/countdown"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_regular"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/color_black"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="@dimen/_30sdp"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:id="@+id/txt_contest_close"
+                                android:text="Contest Close In"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="@dimen/_15ssp" />
+
+                            <TextView
+                                android:id="@+id/closeCountdown"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_regular"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/color_black"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_30sdp">
+
+                            </View>
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_10sdp">
+
+                        </View>
+
+
+                        <!--                <Button-->
+                        <!--                    android:id="@+id/joinWeekly"-->
+                        <!--                    android:layout_gravity="center"-->
+                        <!--                    android:background="@drawable/btn_login_bg"-->
+                        <!--                    android:textSize="16sp"-->
+                        <!--                    android:fontFamily="@font/lato_bold"-->
+                        <!--                    android:text="Join"-->
+                        <!--                    android:textColor="@color/color_white"-->
+                        <!--                    android:layout_marginTop="@dimen/_50sdp"-->
+                        <!--                    android:layout_marginEnd="@dimen/_50sdp"-->
+                        <!--                    android:layout_marginRight="@dimen/_50sdp"-->
+                        <!--                    android:layout_marginStart="@dimen/_50sdp"-->
+                        <!--                    android:layout_marginLeft="@dimen/_50sdp"-->
+                        <!--                    android:layout_width="match_parent"-->
+                        <!--                    android:layout_height="wrap_content">-->
+
+                        <!--                </Button>-->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_50sdp"
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:background="@drawable/leaderboardwhite"
+                            android:elevation="@dimen/_5sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="About Weekly Contest"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="22sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="start"
+                                android:text="@string/aboutcontest"
+                                android:textColor="@color/color_black"
+                                android:textSize="16sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Requirements to participate in contest"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="22sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="start"
+                                android:text="You need a minimum of 150 coins to participate in each weekly contest”."
+                                android:textColor="@color/color_black"
+                                android:textSize="16sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Learn How To Earn Coins"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="22sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="start"
+                                android:text="You need to click on 'Earn 10 Coins' button for you to earn coins. You can only earn a maximum of 50coins a day. You need a minimum of 150 coins to participate in the weekly contest."
+                                android:textColor="@color/color_black"
+                                android:textSize="16sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Good News For Premium User"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="22sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="start"
+                                android:text="If You upgrade to premium Or If you are a Premium User, You won’t need any coins to participate in the weekly contest."
+                                android:textColor="@color/color_black"
+                                android:textSize="16sp"></TextView>
+
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Contest Time"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="22sp"></TextView>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="start"
+                                android:text="Contest will be held every saturday between 7am to 10pm"
+                                android:textColor="@color/red"
+                                android:textSize="16sp"></TextView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:background="@drawable/takeexam_background"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Good Luck"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="22sp"></TextView>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_5sdp">
+
+                            </View>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_10sdp">
+
+                        </View>
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</layout>

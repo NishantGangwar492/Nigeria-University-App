@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".ui.homepage.ui.exam.custom.CustomExamFragment">
+
+
+    <include
+        android:id="@+id/include_toolbar"
+        layout="@layout/toolbar_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_30sdp"
+        android:text="@string/take_a_custom_exam"
+        android:textColor="@color/add_slider_text_color"
+        android:textSize="@dimen/_25sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <TextView
+            android:id="@+id/txt_selected_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_drop"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="start"
+            android:hint="@string/select_year"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/color_black"
+            android:textColorHint="@color/color_black"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/toolbarbackground"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+            tools:layout_editor_absoluteX="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+        <TextView
+            android:id="@+id/txt_selected_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_drop"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="start"
+            android:textColor="@color/color_black"
+            android:textColorHint="@color/color_black"
+            android:hint="@string/choose_your_subject"
+            android:textSize="@dimen/_16ssp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/toolbarbackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout10"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/_20sdp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/lato_regular"-->
+<!--            android:gravity="start"-->
+<!--            android:textColor="@color/color_black"-->
+<!--            android:textColorHint="@color/color_black"-->
+<!--            android:text="@string/no_of_question"-->
+<!--            android:textSize="@dimen/_16ssp" />-->
+
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/lato_regular"-->
+<!--            android:gravity="start"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:textColor="@color/color_black"-->
+<!--            android:textColorHint="@color/color_black"-->
+<!--            android:text=""-->
+<!--            android:id="@+id/edit_question_number"-->
+<!--            android:autofillHints="@string/_0"-->
+<!--            android:hint="@string/_0"-->
+<!--            android:layout_marginTop="@dimen/_5sdp"-->
+<!--            android:inputType="number"-->
+<!--            android:textSize="@dimen/_14ssp" />-->
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="@drawable/toolbarbackground"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
+<!--    </LinearLayout>-->
+
+
+
+    <TextView
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/piked_time"
+        android:text="@string/_1_30_minutes"
+        android:textColor="@color/add_slider_text_color"
+        android:fontFamily="@font/lato_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/_25sdp"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/exam_dutation"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+
+    <Button
+        android:id="@+id/btn_start_exam"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_login_bg"
+        android:fontFamily="@font/lato_bold"
+        android:padding="0dp"
+        android:text="@string/start_exam"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/piked_time"
+        app:layout_constraintStart_toStartOf="@+id/piked_time"
+        app:layout_constraintTop_toBottomOf="@+id/piked_time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

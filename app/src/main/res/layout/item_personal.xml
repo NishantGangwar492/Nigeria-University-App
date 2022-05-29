@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_user" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearlayoutinroom"
+            android:layout_width="0dp"
+            android:layout_weight="6.5"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toEndOf="@+id/profile_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toni Krus"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Lorem ipsum dolor sit amet, consectetuer" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="14dp"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/lastM_message_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginEnd="14dp"
+                android:text="12:30 am" />
+
+            <TextView
+                android:layout_width="25dp"
+                android:id="@+id/unseen_message_count"
+                android:layout_height="25dp"
+                android:background="@drawable/chatcounter"
+                android:layout_marginEnd="14dp"
+                android:gravity="center"
+                android:text="20"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</layout>

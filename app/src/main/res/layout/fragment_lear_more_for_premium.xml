@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        tools:context=".ui.homepage.ui.premium.learnmorepackage.LearMoreForPremium">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B2F7F7F7">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:elevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/toolbarbackground"
+                    app:elevation="0dp"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageButton
+                                android:id="@+id/back"
+                                android:layout_width="@dimen/_36sdp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:background="@null"
+                                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8.5">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/_20sdp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="Premium Package"
+                                android:textColor="@color/white"
+                                android:textSize="16sp">
+
+                            </TextView>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/appBarLayout">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="Why do you need to upgrade to this package?\n\n1. Access to everything in basic plan\n\n2. We have qualified paid teachers that will be teaching you all subjects in this App excluding CRS and Agriculture. Yes the teachers will not just teach you, they will answer any question related to the topic they are teaching.\n\n
+3. As an aspirant, you definitely have questions you want to ask our admin. This package will give access to chat with our admin in real time (ie, your question will be answered almost immediately). You will not just be chatting with any admin, you will be chatting with someone that knows everything about UNN.\n\n
+4. Sometimes you want to discuss with your fellow aspirant, this package will also give you access to chat with your fellow aspirants.\n\n
+What are you waiting for? Pay Now!"
+
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/_14sdp">
+
+                </TextView>
+
+
+            </ScrollView>
+        </RelativeLayout>
+
+    </FrameLayout>
+</layout>

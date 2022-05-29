@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_home_to_unnNews"
+            app:destination="@id/unnNews" />
+        <action
+            android:id="@+id/action_nav_home_to_navigation"
+            app:destination="@id/navigation"
+            app:enterAnim="@anim/slide_from_left_animation"
+            app:exitAnim="@anim/zoom_out"
+            app:popEnterAnim="@anim/slide_from_right_animation"
+            app:popExitAnim="@anim/zoom_in"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_nav_home_to_schoolAnthem"
+            app:destination="@id/schoolAnthem" />
+        <action
+            android:id="@+id/action_nav_home_to_articals"
+            app:destination="@id/articals" />
+        <action
+            android:id="@+id/action_nav_home_to_syllabus"
+            app:destination="@id/syllabus" />
+        <action
+            android:id="@+id/action_nav_home_to_questionFragment"
+            app:destination="@id/questionFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_takeExamFragment"
+            app:destination="@id/takeExamFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_weekly_contest"
+            app:destination="@id/weekly_contest" />
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/unnNews"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.unn_news.UnnNewsFragment"
+        android:label="@string/UNN_News"
+        tools:layout="@layout/unn_news_fragment">
+        <action
+            android:id="@+id/action_unnNews_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.navigation.Navigation"
+        tools:layout="@layout/fragment_navigation">
+        <action
+            android:id="@+id/action_navigation_to_nav_home"
+            app:destination="@id/nav_home"
+            app:enterAnim="@anim/zoom_in"
+            app:exitAnim="@anim/slide_from_right_animation"
+            app:popEnterAnim="@anim/zoom_out"
+            app:popExitAnim="@anim/slide_from_left_animation"/>
+        <action
+            android:id="@+id/action_navigation_to_schoolAnthem"
+            app:destination="@id/schoolAnthem" />
+        <action
+            android:id="@+id/action_navigation_to_unnNews"
+            app:destination="@id/unnNews" />
+        <action
+            android:id="@+id/action_navigation_to_articals"
+            app:destination="@id/articals" />
+        <action
+            android:id="@+id/action_navigation_to_syllabus"
+            app:destination="@id/syllabus" />
+        <action
+            android:id="@+id/action_navigation_to_questionFragment"
+            app:destination="@id/questionFragment" />
+        <action
+            android:id="@+id/action_navigation_to_takeExamFragment"
+            app:destination="@id/takeExamFragment" />
+        <action
+            android:id="@+id/action_navigation_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+        <action
+            android:id="@+id/action_navigation_to_LeaderBoard"
+            app:destination="@id/LeaderBoard" />
+        <action
+            android:id="@+id/action_navigation_to_conntactusdetails"
+            app:destination="@id/conntactusdetails" />
+        <action
+            android:id="@+id/action_navigation_to_aboutApp"
+            app:destination="@id/aboutApp" />
+        <action
+            android:id="@+id/action_navigation_to_weekly_contest"
+            app:destination="@id/weekly_contest" />
+        <action
+            android:id="@+id/action_navigation_to_unnFaqFragment"
+            app:destination="@id/unnFaqFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/schoolAnthem"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.schoolanthem.SchoolAnthem"
+
+        tools:layout="@layout/fragment_school_anthem">
+
+        <action
+            android:id="@+id/action_schoolAnthem_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/articals"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.articals.Articales"
+        tools:layout="@layout/fragment_articales">
+
+
+        <action
+            app:popUpTo="@+id/nav_home"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_articals_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/syllabus"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.syllabus.SyllabusFragment"
+        tools:layout="@layout/fragment_syllabus">
+
+
+        <action
+
+            android:id="@+id/action_syllabus_to_SylaabusClickfragment"
+            app:destination="@id/SylaabusClickfragment" />
+        <action
+            android:id="@+id/action_syllabus_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@+id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SylaabusClickfragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.SyllabusItemClickFragment"
+        tools:layout="@layout/fragment_syllabus_item_click">
+
+
+        <action
+            android:id="@+id/action_SylaabusClickfragment_to_syllabus"
+            app:destination="@id/syllabus"
+            app:popUpTo="@+id/syllabus"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.question.QuestionFragment"
+        android:label="fragment_question"
+        tools:layout="@layout/fragment_question" >
+        <action
+            android:id="@+id/action_questionFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_questionFragment_to_questionDetailsFragment"
+            app:destination="@id/questionDetailsFragment" />
+        <action
+            android:id="@+id/action_questionFragment_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/questionDetailsFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.question.details.QuestionDetailsFragment"
+        android:label="fragment_question_details"
+        tools:layout="@layout/fragment_question_details" >
+        <action
+            android:id="@+id/action_questionDetailsFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/takeExamFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.exam.TakeExamFragment"
+        android:label="TakeExamFragment"
+        tools:layout="@layout/fragment_take_exam">
+        <action
+            android:id="@+id/action_takeExamFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_takeExamFragment_to_fullExamFragment"
+            app:destination="@id/fullExamFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_takeExamFragment_to_customExamFragment"
+            app:destination="@id/customExamFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_takeExamFragment_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fullExamFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment"
+        android:label="fragment_full_exam"
+        tools:layout="@layout/fragment_full_exam" >
+        <action
+            android:id="@+id/action_fullExamFragment_to_takeExamFragment"
+            app:destination="@id/takeExamFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_fullExamFragment_to_examPreviewFragment"
+            app:destination="@id/examPreviewFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/customExamFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.exam.custom.CustomExamFragment"
+        android:label="CustomExamFragment"
+        tools:layout="@layout/fragment_custom_exam">
+        <action
+            android:id="@+id/action_customExamFragment_to_takeExamFragment"
+            app:destination="@id/takeExamFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_customExamFragment_to_customExamDetailsFragment"
+            app:destination="@id/customExamDetailsFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_customExamFragment_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/examPreviewFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.exam.exampreview.ExamPreviewFragment"
+        android:label="fragment_exam_preview"
+        tools:layout="@layout/fragment_exam_preview">
+        <action
+            android:id="@+id/action_examPreviewFragment_to_takeExamFragment"
+            app:destination="@id/takeExamFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_examPreviewFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/customExamDetailsFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.exam.custom.exam_details.CustomExamDetailsFragment"
+        android:label="fragment_custom_exam_details"
+        tools:layout="@layout/fragment_custom_exam_details" >
+        <action
+            android:id="@+id/action_customExamDetailsFragment_to_customExamFragment"
+            app:destination="@id/customExamFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_customExamDetailsFragment_to_examPreviewFragment"
+            app:destination="@id/examPreviewFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/premiumProcessFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.premium.PremiumProcessFragment"
+        android:label="fragment_premium_process"
+        tools:layout="@layout/fragment_premium_process" >
+        <action
+            android:id="@+id/action_premiumProcessFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_premiumProcessFragment_to_onlinePaymentFragment"
+            app:destination="@id/onlinePaymentFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_premiumProcessFragment_to_bankingSystemFragment"
+            app:destination="@id/bankingSystemFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_premiumProcessFragment_to_mobileRechargeFragment"
+            app:destination="@id/mobileRechargeFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_premiumProcessFragment_to_learnmorePremium"
+            app:destination="@id/learnmorePremium" />
+        <action
+            android:id="@+id/action_premiumProcessFragment_to_learnmoreBesic"
+            app:destination="@id/learnmoreBesic" />
+    </fragment>
+    <fragment
+        android:id="@+id/onlinePaymentFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.premium.onlinepayment.OnlinePaymentFragment"
+        android:label="fragment_online_payment"
+        tools:layout="@layout/fragment_online_payment" >
+        <action
+            android:id="@+id/action_onlinePaymentFragment_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_onlinePaymentFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/bankingSystemFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.premium.bankingsystem.BankingSystemFragment"
+        android:label="fragment_banking_system"
+        tools:layout="@layout/fragment_banking_system" >
+        <action
+            android:id="@+id/action_bankingSystemFragment_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mobileRechargeFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment"
+        android:label="fragment_mobile_recharge"
+        tools:layout="@layout/fragment_mobile_recharge" >
+        <action
+            android:id="@+id/action_mobileRechargeFragment_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/LeaderBoard"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.leaderboard.LeaderBoard"
+        android:label="@string/leaderBoard"
+        tools:layout="@layout/fragment_leader_board">
+
+        <action
+            android:id="@+id/action_LeaderBoard_to_navigation"
+            app:destination="@id/navigation" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.notification.NotificationFragment"
+        android:label="NotificationFragment" >
+        <action
+            android:id="@+id/action_notificationFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/learnmorePremium"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.premium.learnmorepackage.LearMoreForPremium"
+
+        tools:layout="@layout/fragment_lear_more_for_premium">
+
+        <action
+            android:id="@+id/action_learnmorePremium_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/learnmoreBesic"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.premium.learnmorepackage.LearnMoreForBesic"
+        tools:layout="@layout/fragment_lear_more_for_premium">
+
+        <action
+            android:id="@+id/action_learnmoreBesic_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/conntactusdetails"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.contactus.ContactusFragment"
+        tools:layout="@layout/fragment_contactus">
+
+
+        <action
+            android:id="@+id/action_conntactusdetails_to_navigation"
+            app:destination="@id/navigation" />
+        <action
+            android:id="@+id/action_conntactusdetails_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutApp"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.aboutapp.AboutAppFragment"
+        tools:layout="@layout/fragment_about_app">
+
+        <action
+            android:id="@+id/action_aboutApp_to_navigation"
+            app:destination="@id/navigation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/weekly_contest"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.weeklycontest.WeeklyContest"
+
+        tools:layout="@layout/fragment_weekly_contest">
+
+        <action
+            android:id="@+id/action_weekly_contest_to_navigation"
+            app:destination="@id/navigation"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_weekly_contest_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_weekly_contest_to_takeContestExamFragment"
+            app:destination="@id/takeContestExamFragment" />
+        <action
+
+            android:id="@+id/action_weekly_contest_to_getRewarded"
+            app:destination="@id/getRewarded"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_weekly_contest_to_LeaderBoard"
+            app:destination="@id/LeaderBoard"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_weekly_contest_to_premiumProcessFragment"
+            app:destination="@id/premiumProcessFragment"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/takeContestExamFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.weeklycontest.takecontestfragment.TakeContestExamFragment"
+
+        tools:layout="@layout/fragment_take_contest_exam">
+
+
+        <action
+
+            android:id="@+id/action_takeContestExamFragment_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_takeContestExamFragment_to_examPreviewFragment"
+            app:destination="@id/examPreviewFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/getRewarded"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.weeklycontest.getreward.GetRewardFragment"
+        tools:layout="@layout/fragment_get_reward">
+        <action
+            android:id="@+id/action_getRewarded_to_weekly_contest"
+            app:destination="@id/weekly_contest"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/unnFaqFragment"
+        android:name="com.iotait.schoolapp.ui.homepage.ui.unnfaq.UnnFaqFragment"
+        android:label="fragment_unn_faq"
+        tools:layout="@layout/fragment_unn_faq" >
+        <action
+            android:id="@+id/action_unnFaqFragment_to_navigation"
+            app:destination="@id/navigation" />
+    </fragment>
+</navigation>

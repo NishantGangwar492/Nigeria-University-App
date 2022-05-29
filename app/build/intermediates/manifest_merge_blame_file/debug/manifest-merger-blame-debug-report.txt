@@ -1,0 +1,923 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iotait.schoolapp"
+4    android:versionCode="34"
+5    android:versionName="7.1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:142:5-76
+11-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:142:22-73
+12    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+12-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:143:5-79
+12-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:143:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:144:5-65
+13-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:144:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:145:5-80
+14-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:145:22-77
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:146:5-67
+15-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:146:22-64
+16    <uses-permission android:name="android.permission.STORAGE" />
+16-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:147:5-66
+16-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:147:22-63
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:148:5-81
+17-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:148:22-78
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:149:5-75
+18-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:149:22-72
+19    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b2f667f49a61a9eb6c190f5e177f2e40\jetified-pinpad-1.0.4\AndroidManifest.xml:11:5-66
+19-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b2f667f49a61a9eb6c190f5e177f2e40\jetified-pinpad-1.0.4\AndroidManifest.xml:11:22-63
+20    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+21-->[com.google.firebase:firebase-database:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\bdb265758e07b6defaab340e6321b1cc\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:5-79
+21-->[com.google.firebase:firebase-database:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\bdb265758e07b6defaab340e6321b1cc\jetified-firebase-database-19.3.0\AndroidManifest.xml:25:22-76
+22    <permission
+22-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:7:5-9:47
+23        android:name="com.iotait.schoolapp.permission.C2D_MESSAGE"
+23-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:8:9-63
+24        android:protectionLevel="signature" />
+24-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:9:9-44
+25
+26    <uses-permission android:name="com.iotait.schoolapp.permission.C2D_MESSAGE" />
+26-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:5-79
+26-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:22-76
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+27-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:5-82
+27-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:22-79
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:18:5-68
+28-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:18:22-65
+29    <!--
+30 Use to restore notifications the user hasn't interacted with.
+31         They could be missed notifications if the user reboots their device if this isn't in place.
+32    -->
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+33-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:5-81
+33-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:22-78
+34    <!-- Samsung -->
+35    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+35-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:5-86
+35-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:22-83
+36    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+36-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:5-87
+36-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:22-84
+37    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+37-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:5-81
+37-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:22-78
+38    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+38-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:5-83
+38-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:22-80
+39    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+39-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:5-88
+39-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:22-85
+40    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+40-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:5-92
+40-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:22-89
+41    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+41-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:5-84
+41-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:22-81
+42    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+42-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:5-83
+42-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:22-80
+43    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+43-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:5-91
+43-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:22-88
+44    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+44-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:5-92
+44-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:22-89
+45    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+45-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:5-93
+45-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:22-90
+46    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+46-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:5-73
+46-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:22-70
+47    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+47-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:5-82
+47-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:22-79
+48    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+48-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:5-83
+48-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:22-80
+49    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+49-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:5-88
+49-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:22-85
+50    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+50-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:5-89
+50-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:22-86
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:26:22-107
+52    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+52-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:28:5-79
+52-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:28:22-76
+53
+54    <application
+54-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:6:5-140:19
+55        android:name="com.iotait.schoolapp.application.AppController"
+55-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:7:9-50
+56        android:allowBackup="true"
+56-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:8:9-35
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.3.2] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8bb513e637aa986ad991f6c3516f8bcd\core-1.3.2\AndroidManifest.xml:24:18-86
+58        android:debuggable="true"
+59        android:hardwareAccelerated="true"
+59-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:9:9-43
+60        android:icon="@mipmap/app_icon"
+60-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:10:9-40
+61        android:label="@string/app_name"
+61-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:11:9-41
+62        android:networkSecurityConfig="@xml/network_security_config"
+62-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:12:9-69
+63        android:requestLegacyExternalStorage="true"
+63-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:13:9-52
+64        android:roundIcon="@mipmap/app_icon_round"
+64-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:14:9-51
+65        android:supportsRtl="true"
+65-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:15:9-35
+66        android:testOnly="true"
+67        android:theme="@style/AppTheme" >
+67-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:16:9-40
+68        <meta-data
+68-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:18:9-20:55
+69            android:name="com.facebook.sdk.ApplicationId"
+69-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:19:13-58
+70            android:value="@string/facebook_app_id" />
+70-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:20:13-52
+71
+72        <activity
+72-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:22:9-25:48
+73            android:name="com.facebook.FacebookActivity"
+73-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:23:13-57
+74            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+74-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:24:13-96
+75            android:label="@string/app_name"
+75-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:25:13-45
+76            android:theme="@style/com_facebook_activity_theme" />
+76-->[com.facebook.android:facebook-common:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\098dd952e0b91cd7df8c7a5d5e58f7de\jetified-facebook-common-13.2.0\AndroidManifest.xml:33:13-63
+77        <activity
+77-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:26:9-37:20
+78            android:name="com.facebook.CustomTabActivity"
+78-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:27:13-58
+79            android:exported="true" >
+79-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:28:13-36
+80            <intent-filter>
+80-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:29:13-36:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:30:17-69
+81-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:30:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:32:17-76
+83-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:32:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:33:17-78
+84-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:33:27-75
+85
+86                <data android:scheme="@string/fb_login_protocol_scheme" />
+86-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:35:17-75
+86-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:35:23-72
+87            </intent-filter>
+88            <intent-filter>
+88-->[com.facebook.android:facebook-common:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\098dd952e0b91cd7df8c7a5d5e58f7de\jetified-facebook-common-13.2.0\AndroidManifest.xml:39:13-48:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:30:17-69
+89-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:30:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:32:17-76
+91-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:32:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:33:17-78
+92-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:33:27-75
+93
+94                <data
+94-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:35:17-75
+95                    android:host="cct.com.iotait.schoolapp"
+96                    android:scheme="fbconnect" />
+96-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:35:23-72
+97            </intent-filter>
+98        </activity>
+99        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.leaderboard.LeaderboardinfoActivity" />
+99-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:40:9-97
+99-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:40:19-85
+100        <activity
+100-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:42:9-53:20
+101            android:name="com.iotait.schoolapp.ui.splash.SplashActivity"
+101-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:43:13-53
+102            android:configChanges="orientation|screenSize"
+102-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:44:13-59
+103            android:screenOrientation="nosensor"
+103-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:45:13-49
+104            android:theme="@style/AppTheme.Launcher"
+104-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:46:13-53
+105            android:windowSoftInputMode="adjustResize" >
+105-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:47:13-55
+106            <intent-filter>
+106-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:48:13-52:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:49:17-69
+107-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:49:25-66
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:51:17-77
+109-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:51:27-74
+110            </intent-filter>
+111        </activity>
+112        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.premium.LearnmoreActivity" />
+112-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:55:9-78
+112-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:55:19-75
+113        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.chat.GroupAdminActivity" />
+113-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:56:9-76
+113-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:56:19-73
+114        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.chat.FullPhotoViewActivity" />
+114-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:57:9-79
+114-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:57:19-76
+115        <activity
+115-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:59:9-61:58
+116            android:name="com.iotait.schoolapp.ui.homepage.ui.chat.ChatWindowGroupActivity"
+116-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:60:13-72
+117            android:windowSoftInputMode="adjustResize" />
+117-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:61:13-55
+118        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.chat.ChatWindowActivity" />
+118-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:62:9-76
+118-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:62:19-73
+119
+120        <!-- <meta-data -->
+121        <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
+122        <!-- android:resource="@color/colorAccent" /> -->
+123
+124        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.articlereadmore.ArticleReadmoreActivity" />
+124-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:68:9-92
+124-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:68:19-89
+125        <activity android:name="com.iotait.schoolapp.ui.homepage.ui.chat.ChatListActivty" />
+125-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:69:9-73
+125-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:69:19-70
+126
+127        <!-- metadata for paystack -->
+128        <activity
+128-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:72:9-74:59
+129            android:name="com.iotait.schoolapp.ui.homepage.ui.detailsnews.DetailsNewsWebView"
+129-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:73:13-74
+130            android:theme="@style/AppTheme.NoActionBar" />
+130-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:74:13-56
+131        <activity
+131-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:77:9-81:59
+132            android:name="com.iotait.schoolapp.ui.homepage.HomeNavigationActivity"
+132-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:78:13-63
+133            android:hardwareAccelerated="true"
+133-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:79:13-47
+134            android:noHistory="false"
+134-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:80:13-38
+135            android:theme="@style/AppTheme.NoActionBar" />
+135-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:81:13-56
+136        <activity
+136-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:82:9-87:58
+137            android:name="com.iotait.schoolapp.ui.login.LoginActivity"
+137-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:83:13-51
+138            android:configChanges="orientation|screenSize"
+138-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:84:13-59
+139            android:screenOrientation="nosensor"
+139-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:85:13-49
+140            android:theme="@style/AppTheme.Launcher"
+140-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:86:13-53
+141            android:windowSoftInputMode="adjustResize" />
+141-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:87:13-55
+142        <activity
+142-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:89:9-93:58
+143            android:name="com.iotait.schoolapp.ui.signup.SignUpActivty"
+143-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:90:13-52
+144            android:configChanges="orientation|screenSize"
+144-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:91:13-59
+145            android:screenOrientation="nosensor"
+145-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:92:13-49
+146            android:windowSoftInputMode="adjustResize" />
+146-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:93:13-55
+147        <activity
+147-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:94:9-97:52
+148            android:name="com.iotait.schoolapp.ui.authentication.AuthenticationActivty"
+148-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:95:13-68
+149            android:configChanges="orientation|screenSize"
+149-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:96:13-59
+150            android:screenOrientation="nosensor" />
+150-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:97:13-49
+151
+152        <meta-data
+152-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:18:9-20:55
+153            android:name="com.facebook.sdk.ApplicationId"
+153-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:19:13-58
+154            android:value="@string/facebook_app_id" />
+154-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:20:13-52
+155        <meta-data
+155-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:102:9-104:50
+156            android:name="com.google.firebase.messaging.default_notification_channel_id"
+156-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:103:13-89
+157            android:value="@string/CHANNEL_ID" />
+157-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:104:13-47
+158        <meta-data
+158-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:105:9-107:46
+159            android:name="com.google.android.gms.ads.APPLICATION_ID"
+159-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:106:13-69
+160            android:value="@string/app_id" />
+160-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:107:13-43
+161        <meta-data
+161-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:108:9-110:80
+162            android:name="co.paystack.android.PublicKey"
+162-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:109:13-57
+163            android:value="pk_test_983fafb18046e47fbdb96b25c09daa298189cdea" />
+163-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:110:13-77
+164        <meta-data
+164-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:112:9-114:55
+165            android:name="com.google.firebase.messaging.default_notification_icon"
+165-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:113:13-83
+166            android:resource="@drawable/ic_premium" />
+166-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:114:13-52
+167        <meta-data
+167-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:102:9-104:50
+168            android:name="com.google.firebase.messaging.default_notification_channel_id"
+168-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:103:13-89
+169            android:value="@string/CHANNEL_ID" />
+169-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:104:13-47
+170        <meta-data
+170-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:105:9-107:46
+171            android:name="com.google.android.gms.ads.APPLICATION_ID"
+171-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:106:13-69
+172            android:value="@string/app_id" />
+172-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:107:13-43
+173
+174        <service
+174-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:122:9-129:19
+175            android:name="com.iotait.schoolapp.notification.chatnotif.ReceivedNotifications"
+175-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:123:13-73
+176            android:exported="true"
+176-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:124:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:125:13-73
+178            <intent-filter>
+178-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:126:13-128:29
+179                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+179-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:127:17-78
+179-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:127:25-75
+180            </intent-filter>
+181        </service>
+182
+183        <provider
+183-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:131:9-139:20
+184            android:name="androidx.core.content.FileProvider"
+184-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:132:13-62
+185            android:authorities="com.iotait.schoolapp.fileprovider"
+185-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:133:13-68
+186            android:exported="false"
+186-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:134:13-37
+187            android:grantUriPermissions="true" >
+187-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:135:13-47
+188            <meta-data
+188-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:136:13-138:53
+189                android:name="android.support.FILE_PROVIDER_PATHS"
+189-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:137:17-67
+190                android:resource="@xml/filepaths" />
+190-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:138:17-50
+191        </provider>
+192
+193        <activity
+193-->[com.karumi:dexter:6.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\1c541a52f2520460e72d444bd2926b13\jetified-dexter-6.2.1\AndroidManifest.xml:27:9-29:72
+194            android:name="com.karumi.dexter.DexterActivity"
+194-->[com.karumi:dexter:6.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\1c541a52f2520460e72d444bd2926b13\jetified-dexter-6.2.1\AndroidManifest.xml:28:13-60
+195            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+195-->[com.karumi:dexter:6.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\1c541a52f2520460e72d444bd2926b13\jetified-dexter-6.2.1\AndroidManifest.xml:29:13-69
+196        <activity
+196-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:16:9-19:50
+197            android:name="com.esafirm.imagepicker.features.ImagePickerActivity"
+197-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:17:13-80
+198            android:configChanges="orientation|screenSize"
+198-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:18:13-59
+199            android:theme="@style/ef_AppTheme" />
+199-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:19:13-47
+200
+201        <provider
+201-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:21:9-29:20
+202            android:name="com.esafirm.imagepicker.helper.ImagePickerFileProvider"
+202-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:22:13-82
+203            android:authorities="com.iotait.schoolapp.imagepicker.provider"
+203-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:23:13-72
+204            android:exported="false"
+204-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:24:13-37
+205            android:grantUriPermissions="true" >
+205-->[com.github.esafirm.android-image-picker:imagepicker:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3f9654e4ce53d4cb5579a53fd3a95b0b\jetified-imagepicker-2.2.0\AndroidManifest.xml:25:13-47
+206            <meta-data
+206-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:136:13-138:53
+207                android:name="android.support.FILE_PROVIDER_PATHS"
+207-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:137:17-67
+208                android:resource="@xml/image_picker_provider_paths" />
+208-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:138:17-50
+209        </provider>
+210
+211        <activity android:name="com.facebook.CustomTabMainActivity" />
+211-->[com.facebook.android:facebook-common:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\098dd952e0b91cd7df8c7a5d5e58f7de\jetified-facebook-common-13.2.0\AndroidManifest.xml:34:9-71
+211-->[com.facebook.android:facebook-common:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\098dd952e0b91cd7df8c7a5d5e58f7de\jetified-facebook-common-13.2.0\AndroidManifest.xml:34:19-68
+212        <activity
+212-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+213            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+213-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+214            android:excludeFromRecents="true"
+214-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+215            android:exported="true"
+215-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+216            android:launchMode="singleTask"
+216-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+217            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+217-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+219
+220        <service
+220-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+221            android:name="com.google.firebase.components.ComponentDiscoveryService"
+221-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
+222            android:directBootAware="true"
+222-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3e863e09f24430d9e11fab3dc507d311\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+223            android:exported="false" >
+223-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
+224            <meta-data
+224-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+225                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+225-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\462edb3e60dcc0ede0a657807ff9fbe4\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-database:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\bdb265758e07b6defaab340e6321b1cc\jetified-firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+228                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+228-->[com.google.firebase:firebase-database:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\bdb265758e07b6defaab340e6321b1cc\jetified-firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-database:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\bdb265758e07b6defaab340e6321b1cc\jetified-firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8e6881f2b2f86018f79d5ade1c8ed88e\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+231                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+231-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8e6881f2b2f86018f79d5ade1c8ed88e\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8e6881f2b2f86018f79d5ade1c8ed88e\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\9832bb21c70257a7089d2f602adfb044\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:16:13-18:85
+234                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+234-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\9832bb21c70257a7089d2f602adfb044\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:17:17-115
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-crashlytics:17.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\9832bb21c70257a7089d2f602adfb044\jetified-firebase-crashlytics-17.0.0\AndroidManifest.xml:18:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3941a440140e30a7658b4bed13cab56b\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+237                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+237-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3941a440140e30a7658b4bed13cab56b\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3941a440140e30a7658b4bed13cab56b\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\102a66cceab8cc5618164903be0f48b3\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:38:13-40:85
+240                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+240-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\102a66cceab8cc5618164903be0f48b3\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:39:17-119
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\102a66cceab8cc5618164903be0f48b3\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:40:17-82
+242            <meta-data
+242-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\4d5ad02603b003ee6dde962c3e148fa1\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:30:13-32:85
+243                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+243-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\4d5ad02603b003ee6dde962c3e148fa1\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:31:17-139
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.android.gms:play-services-measurement-api:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\4d5ad02603b003ee6dde962c3e148fa1\jetified-play-services-measurement-api-17.4.0\AndroidManifest.xml:32:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:32:13-34:85
+246                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+246-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:33:17-96
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:34:17-82
+248            <meta-data
+248-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c6ec49ddd6eb5e798019bb9ac58abe4e\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+249                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+249-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c6ec49ddd6eb5e798019bb9ac58abe4e\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c6ec49ddd6eb5e798019bb9ac58abe4e\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-installations:16.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8dfb67c9a257141945a54548dc3cf763\jetified-firebase-installations-16.3.0\AndroidManifest.xml:17:13-19:85
+252                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+252-->[com.google.firebase:firebase-installations:16.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8dfb67c9a257141945a54548dc3cf763\jetified-firebase-installations-16.3.0\AndroidManifest.xml:18:17-127
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-installations:16.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\8dfb67c9a257141945a54548dc3cf763\jetified-firebase-installations-16.3.0\AndroidManifest.xml:19:17-82
+254        </service>
+255
+256        <meta-data
+256-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:49:9-51:51
+257            android:name="onesignal_app_id"
+257-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:50:13-44
+258            android:value="1f240163-ec95-4900-bf89-1f14e7c80aeb" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+258-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:51:13-48
+259        <meta-data
+259-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:53:9-55:70
+260            android:name="onesignal_google_project_number"
+260-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:54:13-59
+261            android:value="str:53494837412" />
+261-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:55:13-67
+262
+263        <receiver
+263-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:57:9-67:20
+264            android:name="com.onesignal.GcmBroadcastReceiver"
+264-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:58:13-62
+265            android:permission="com.google.android.c2dm.permission.SEND" >
+265-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:59:13-73
+266
+267            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+268            <intent-filter android:priority="999" >
+268-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:13-66:29
+268-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:28-50
+269                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+269-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+269-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+270
+271                <category android:name="com.iotait.schoolapp" />
+271-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:17-61
+271-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:27-58
+272            </intent-filter>
+273        </receiver>
+274        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+274-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:9-77
+274-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:19-74
+275
+276        <service
+276-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:70:9-76:19
+277            android:name="com.onesignal.HmsMessageServiceOneSignal"
+277-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:71:13-68
+278            android:exported="false" >
+278-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:72:13-37
+279            <intent-filter>
+279-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:73:13-75:29
+280                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+280-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:17-81
+280-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:25-78
+281            </intent-filter>
+282        </service>
+283
+284        <activity
+284-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:78:9-84:20
+285            android:name="com.onesignal.NotificationOpenedActivityHMS"
+285-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:79:13-71
+286            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+286-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:80:13-72
+287            <intent-filter>
+287-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:81:13-83:29
+288                <action android:name="android.intent.action.VIEW" />
+288-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:30:17-69
+288-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:30:25-66
+289            </intent-filter>
+290        </activity>
+291
+292        <service android:name="com.onesignal.GcmIntentService" />
+292-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:9-66
+292-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:18-63
+293        <service
+293-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:87:9-89:72
+294            android:name="com.onesignal.GcmIntentJobService"
+294-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:88:13-61
+295            android:permission="android.permission.BIND_JOB_SERVICE" />
+295-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:89:13-69
+296        <service
+296-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:90:9-92:72
+297            android:name="com.onesignal.RestoreJobService"
+297-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:91:13-59
+298            android:permission="android.permission.BIND_JOB_SERVICE" />
+298-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:92:13-69
+299        <service
+299-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:93:9-95:72
+300            android:name="com.onesignal.RestoreKickoffJobService"
+300-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:94:13-66
+301            android:permission="android.permission.BIND_JOB_SERVICE" />
+301-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:95:13-69
+302        <service
+302-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:96:9-98:43
+303            android:name="com.onesignal.SyncService"
+303-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:97:13-53
+304            android:stopWithTask="true" />
+304-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:98:13-40
+305        <service
+305-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:99:9-101:72
+306            android:name="com.onesignal.SyncJobService"
+306-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:100:13-56
+307            android:permission="android.permission.BIND_JOB_SERVICE" />
+307-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:101:13-69
+308
+309        <activity
+309-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:103:9-105:75
+310            android:name="com.onesignal.PermissionsActivity"
+310-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:104:13-61
+311            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+311-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:105:13-72
+312
+313        <service android:name="com.onesignal.NotificationRestoreService" />
+313-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:9-76
+313-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:18-73
+314
+315        <receiver android:name="com.onesignal.BootUpReceiver" >
+315-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:9-114:20
+315-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:19-62
+316            <intent-filter>
+316-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:110:13-113:29
+317                <action android:name="android.intent.action.BOOT_COMPLETED" />
+317-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:17-79
+317-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:25-76
+318                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+318-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:17-82
+318-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:25-79
+319            </intent-filter>
+320        </receiver>
+321        <receiver android:name="com.onesignal.UpgradeReceiver" >
+321-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:9-119:20
+321-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:19-63
+322            <intent-filter>
+322-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:116:13-118:29
+323                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+323-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:17-84
+323-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:25-81
+324            </intent-filter>
+325        </receiver>
+326        <!--
+327             FirebaseMessagingService performs security checks at runtime,
+328             but set to not exported to explicitly avoid allowing another app to call it.
+329        -->
+330        <service
+330-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\102a66cceab8cc5618164903be0f48b3\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:28:9-34:19
+331            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+331-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\102a66cceab8cc5618164903be0f48b3\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:29:13-82
+332            android:exported="false" >
+332-->[com.google.firebase:firebase-messaging:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\102a66cceab8cc5618164903be0f48b3\jetified-firebase-messaging-20.1.7\AndroidManifest.xml:30:13-37
+333            <intent-filter android:priority="-500" >
+333-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:126:13-128:29
+334                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+334-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:127:17-78
+334-->C:\Users\nisha\Desktop\dcs\School App\school-app-master\app\src\main\AndroidManifest.xml:127:25-75
+335            </intent-filter>
+336        </service>
+337
+338        <activity
+338-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+339            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+339-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+340            android:excludeFromRecents="true"
+340-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+341            android:exported="false"
+341-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+342-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+343        <!--
+344            Service handling Google Sign-In user revocation. For apps that do not integrate with
+345            Google Sign-In, this service will never be started.
+346        -->
+347        <service
+347-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+348            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+348-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+349            android:exported="true"
+349-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+350            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+350-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\172ffcb3c89f36383b7ead261c8ecb7b\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+351
+352        <provider
+352-->[com.squareup.picasso:picasso:2.71828] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\798560c4944263aafe9bc6493ff5bf6e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+353            android:name="com.squareup.picasso.PicassoProvider"
+353-->[com.squareup.picasso:picasso:2.71828] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\798560c4944263aafe9bc6493ff5bf6e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+354            android:authorities="com.iotait.schoolapp.com.squareup.picasso"
+354-->[com.squareup.picasso:picasso:2.71828] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\798560c4944263aafe9bc6493ff5bf6e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+355            android:exported="false" />
+355-->[com.squareup.picasso:picasso:2.71828] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\798560c4944263aafe9bc6493ff5bf6e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+356
+357        <receiver
+357-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:29:9-33:20
+358            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+358-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:30:13-85
+359            android:enabled="true"
+359-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:31:13-35
+360            android:exported="false" >
+360-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:32:13-37
+361        </receiver>
+362
+363        <service
+363-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:35:9-38:40
+364            android:name="com.google.android.gms.measurement.AppMeasurementService"
+364-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:36:13-84
+365            android:enabled="true"
+365-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:37:13-35
+366            android:exported="false" />
+366-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:38:13-37
+367        <service
+367-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:39:9-43:72
+368            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+368-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:40:13-87
+369            android:enabled="true"
+369-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:41:13-35
+370            android:exported="false"
+370-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:42:13-37
+371            android:permission="android.permission.BIND_JOB_SERVICE" />
+371-->[com.google.android.gms:play-services-measurement:17.4.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\50aab3b2304560466c236580051cb1ab\jetified-play-services-measurement-17.4.0\AndroidManifest.xml:43:13-69
+372
+373        <receiver
+373-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:37:9-44:20
+374            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+374-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:38:13-78
+375            android:exported="true"
+375-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:39:13-36
+376            android:permission="com.google.android.c2dm.permission.SEND" >
+376-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:40:13-73
+377            <intent-filter>
+377-->[com.google.firebase:firebase-iid:20.1.7] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\f6da54614f105466d113a7fb9398bd75\jetified-firebase-iid-20.1.7\AndroidManifest.xml:41:13-43:29
+378                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+378-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+378-->[com.onesignal:OneSignal:3.15.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\b76ad38af6b447f374f733150be80b10\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+379            </intent-filter>
+380        </receiver>
+381        <!--
+382         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+383         with the application context. This config is merged in with the host app's manifest,
+384         but there can only be one provider with the same authority activated at any given
+385         point; so if the end user has two or more different apps that use Facebook SDK, only the
+386         first one will be able to use the provider. To work around this problem, we use the
+387         following placeholder in the authority to identify each host application as if it was
+388         a completely different provider.
+389        -->
+390        <provider
+390-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:41:9-44:40
+391            android:name="com.facebook.internal.FacebookInitProvider"
+391-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:42:13-70
+392            android:authorities="com.iotait.schoolapp.FacebookInitProvider"
+392-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:43:13-72
+393            android:exported="false" />
+393-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:44:13-37
+394
+395        <receiver
+395-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:46:9-52:20
+396            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+396-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:47:13-86
+397            android:exported="false" >
+397-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:48:13-37
+398            <intent-filter>
+398-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:49:13-51:29
+399                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+399-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:50:17-95
+399-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:50:25-92
+400            </intent-filter>
+401        </receiver>
+402        <receiver
+402-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:53:9-59:20
+403            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+403-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:54:13-118
+404            android:exported="false" >
+404-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:55:13-37
+405            <intent-filter>
+405-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:56:13-58:29
+406                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+406-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:57:17-103
+406-->[com.facebook.android:facebook-core:13.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\acca7fd785f7ddc15d4cb16be08919f9\jetified-facebook-core-13.2.0\AndroidManifest.xml:57:25-100
+407            </intent-filter>
+408        </receiver>
+409
+410        <activity
+410-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c49347e237b747a22a45975b752a1968\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+411            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+411-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c49347e237b747a22a45975b752a1968\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+412            android:exported="false"
+412-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c49347e237b747a22a45975b752a1968\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+413            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+413-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\c49347e237b747a22a45975b752a1968\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+414        <activity
+414-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:15:9-19:75
+415            android:name="com.facebook.ads.AudienceNetworkActivity"
+415-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:16:13-68
+416            android:configChanges="keyboardHidden|orientation|screenSize"
+416-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:17:13-74
+417            android:exported="false"
+417-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:18:13-37
+418            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+418-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:19:13-72
+419
+420        <provider
+420-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:21:9-24:40
+421            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+421-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:22:13-75
+422            android:authorities="com.iotait.schoolapp.AudienceNetworkContentProvider"
+422-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:23:13-82
+423            android:exported="false" />
+423-->[com.facebook.android:audience-network-sdk:5.10.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\a6d3f8918979666836e37266100cd867\jetified-audience-network-sdk-5.10.0\AndroidManifest.xml:24:13-37
+424        <provider
+424-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3e863e09f24430d9e11fab3dc507d311\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+425            android:name="com.google.firebase.provider.FirebaseInitProvider"
+425-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3e863e09f24430d9e11fab3dc507d311\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+426            android:authorities="com.iotait.schoolapp.firebaseinitprovider"
+426-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3e863e09f24430d9e11fab3dc507d311\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+427            android:exported="false"
+427-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3e863e09f24430d9e11fab3dc507d311\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+428            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+428-->[com.google.firebase:firebase-common:19.3.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\3e863e09f24430d9e11fab3dc507d311\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+429        <activity
+429-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+430            android:name="com.google.android.gms.ads.AdActivity"
+430-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+431            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+431-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+432            android:exported="false"
+432-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+433            android:theme="@android:style/Theme.Translucent" />
+433-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+434
+435        <provider
+435-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+436            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+436-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+437            android:authorities="com.iotait.schoolapp.mobileadsinitprovider"
+437-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+438            android:exported="false"
+438-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+439            android:initOrder="100" />
+439-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\26ef57b2610c7308c345298323b07e15\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+440
+441        <meta-data
+441-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\9dbd72a72aa9b604bcf61c658fe9684e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+442            android:name="com.google.android.gms.version"
+442-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\9dbd72a72aa9b604bcf61c658fe9684e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+443            android:value="@integer/google_play_services_version" />
+443-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\9dbd72a72aa9b604bcf61c658fe9684e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+444
+445        <service
+445-->[androidx.room:room-runtime:2.2.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\4315c60d593c98e175e15a071498c221\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+446            android:name="androidx.room.MultiInstanceInvalidationService"
+446-->[androidx.room:room-runtime:2.2.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\4315c60d593c98e175e15a071498c221\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+447            android:exported="false" />
+447-->[androidx.room:room-runtime:2.2.3] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\4315c60d593c98e175e15a071498c221\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+448
+449        <activity
+449-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:12:9-14:63
+450            android:name="co.paystack.android.ui.PinActivity"
+450-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:13:13-62
+451            android:theme="@style/Paystack.Dialog.PinEntry" />
+451-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:14:13-60
+452        <activity
+452-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:15:9-17:63
+453            android:name="co.paystack.android.ui.OtpActivity"
+453-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:16:13-62
+454            android:theme="@style/Paystack.Dialog.OtpEntry" />
+454-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:17:13-60
+455        <activity
+455-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:18:9-20:63
+456            android:name="co.paystack.android.ui.AuthActivity"
+456-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:19:13-63
+457            android:theme="@style/Paystack.Dialog.OtpEntry" />
+457-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:20:13-60
+458        <activity
+458-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:21:9-23:64
+459            android:name="co.paystack.android.ui.CardActivity"
+459-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:22:13-63
+460            android:theme="@style/Paystack.Dialog.CardEntry" />
+460-->[co.paystack.android:paystack:3.0.17] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\00480c65f3eb2163bd4ffe40be5cafe8\jetified-paystack-3.0.17\AndroidManifest.xml:23:13-61
+461
+462        <provider
+462-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\6dec3e865d3f8afc5cff97e2a2a38751\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+463            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+463-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\6dec3e865d3f8afc5cff97e2a2a38751\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+464            android:authorities="com.iotait.schoolapp.lifecycle-process"
+464-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\6dec3e865d3f8afc5cff97e2a2a38751\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+465            android:exported="false"
+465-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\6dec3e865d3f8afc5cff97e2a2a38751\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+466            android:multiprocess="true" />
+466-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\6dec3e865d3f8afc5cff97e2a2a38751\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+467
+468        <service
+468-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\af1644560beb99b70208cc36b420de7a\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:29:9-35:19
+469            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+469-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\af1644560beb99b70208cc36b420de7a\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:30:13-103
+470            android:exported="false" >
+470-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\af1644560beb99b70208cc36b420de7a\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:31:13-37
+471            <meta-data
+471-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\af1644560beb99b70208cc36b420de7a\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:32:13-34:39
+472                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+472-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\af1644560beb99b70208cc36b420de7a\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:33:17-94
+473                android:value="cct" />
+473-->[com.google.android.datatransport:transport-backend-cct:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\af1644560beb99b70208cc36b420de7a\jetified-transport-backend-cct-2.2.1\AndroidManifest.xml:34:17-36
+474        </service>
+475        <service
+475-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:26:9-30:19
+476            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+476-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:27:13-117
+477            android:exported="false"
+477-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:28:13-37
+478            android:permission="android.permission.BIND_JOB_SERVICE" >
+478-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:29:13-69
+479        </service>
+480
+481        <receiver
+481-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:32:9-34:40
+482            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+482-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:33:13-132
+483            android:exported="false" />
+483-->[com.google.android.datatransport:transport-runtime:2.2.1] C:\Users\nisha\.gradle\caches\transforms-2\files-2.1\cd33e9af9b1bd06f2d4a57b55e549431\jetified-transport-runtime-2.2.1\AndroidManifest.xml:34:13-37
+484    </application>
+485
+486</manifest>

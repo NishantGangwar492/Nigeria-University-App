@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@drawable/bg2"
+        tools:context=".ui.signup.SignUpActivity">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Create an account"
+            android:textColor="@color/color_white"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:fontFamily="@font/lato_regular"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/ef_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:fontFamily="@font/lato_regular"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/ef_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_username" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_email">
+
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="15dp"
+                app:ccp_defaultNameCode="NG"
+                app:ccp_hideNameCode="true"
+                app:ccp_textColor="@color/color_grey" />
+
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/lato_regular"
+                android:hint="@string/enter_phone_number"
+                android:inputType="phone"
+                android:textColor="@color/color_white"
+                android:textColorHint="@color/color_grey"
+                android:textSize="@dimen/_10ssp"
+                tools:ignore="Autofill" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@color/color_grey" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/lato_bold"
+            android:padding="0dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_password" />
+
+
+        <TextView
+            android:id="@+id/already_have_ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/already_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/sign_up_note_1"
+            android:textColor="@color/color_white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. When entering your phone number, do not start with 0. For example if your number is         08093785476, the number you will enter will be 8093785476"
+            android:textColor="@color/color_white"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="c. If problem still persist, contact us on WhatsApp 08093785476"
+            android:textColor="@color/color_white"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="b. If you have issues receiving OTP, use another phone number."
+            android:textColor="@color/color_white"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
+
+
+
+
+
+
+
+
+
+
+
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:fillViewport="true"-->
+<!--        tools:context=".ui.ui_user_part.signinsignup.signup.SignUpActivty">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:background="@drawable/signup"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_signup"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="14dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/btn_login_bg"-->
+<!--                android:fontFamily="@font/lato_bold"-->
+<!--                android:padding="0dp"-->
+<!--                android:text="@string/sign_up"-->
+<!--                android:textColor="@color/color_white"-->
+<!--                android:textSize="@dimen/_12ssp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="@dimen/_10sdp"-->
+<!--                android:orientation="vertical"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView3">-->
+
+
+<!--                <EditText-->
+<!--                    android:id="@+id/edit_username"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="@dimen/_5sdp"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:fontFamily="@font/lato_regular"-->
+<!--                    android:hint="@string/full_name"-->
+<!--                    android:inputType="textPersonName"-->
+<!--                    android:textColor="@color/color_black"-->
+<!--                    android:textColorHint="@color/color_grey" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_marginTop="@dimen/_3sdp"-->
+<!--                    android:background="@color/color_grey" />-->
+
+
+<!--                <EditText-->
+<!--                    android:id="@+id/edit_email"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="@dimen/_5sdp"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:fontFamily="@font/lato_regular"-->
+<!--                    android:hint="@string/email"-->
+<!--                    android:inputType="textEmailAddress"-->
+<!--                    android:textColor="@color/color_black"-->
+<!--                    android:textColorHint="@color/color_grey"-->
+<!--                    android:textSize="@dimen/_15ssp" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_marginTop="@dimen/_3sdp"-->
+<!--                    android:background="@color/color_grey" />-->
+
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <com.rilixtech.widget.countrycodepicker.CountryCodePicker-->
+<!--                        android:id="@+id/ccp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:paddingTop="15dp"-->
+<!--                        app:ccp_defaultNameCode="NG"-->
+<!--                        app:ccp_hideNameCode="true"-->
+<!--                        app:ccp_textColor="@color/color_grey" />-->
+
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/edit_phone"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:background="@android:color/transparent"-->
+<!--                        android:fontFamily="@font/lato_regular"-->
+<!--                        android:hint="@string/enter_phone_number"-->
+<!--                        android:inputType="phone"-->
+<!--                        android:textColor="@color/color_black"-->
+<!--                        android:textColorHint="@color/color_grey"-->
+<!--                        android:textSize="@dimen/_10ssp"-->
+<!--                        tools:ignore="Autofill" />-->
+
+
+
+
+<!--                </LinearLayout>-->
+
+<!--                <View-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_marginTop="@dimen/_3sdp"-->
+<!--                    android:background="@color/color_grey" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/edit_password"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="@dimen/_5sdp"-->
+<!--                    android:layout_marginTop="@dimen/_15sdp"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:fontFamily="@font/lato_regular"-->
+<!--                    android:hint="@string/password"-->
+<!--                    android:inputType="textPassword"-->
+<!--                    android:textColor="@color/color_black"-->
+<!--                    android:textColorHint="@color/color_grey"-->
+<!--                    android:textSize="@dimen/_15ssp" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:layout_marginTop="@dimen/_5sdp"-->
+<!--                    android:background="@color/color_grey" />-->
+
+
+<!--            </LinearLayout>-->
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="32dp"-->
+<!--                android:fontFamily="@font/lato_bold"-->
+<!--                android:text="@string/let_s_roll"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/color_black"-->
+<!--                android:textSize="@dimen/_16ssp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/guideline"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/guideline" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:fontFamily="@font/lato_bold"-->
+<!--                android:text="@string/create_an_account"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/color_black"-->
+<!--                android:textSize="@dimen/_16ssp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+<!--            <androidx.constraintlayout.widget.Guideline-->
+<!--                android:id="@+id/guideline"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintGuide_percent="0.34"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayoutForTwoTextView"-->
+<!--                android:layout_width="@dimen/_280sdp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:background="@color/white"-->
+<!--                android:orientation="vertical"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/btn_signup">-->
+
+<!--                 <TextView-->
+<!--                android:id="@+id/please_note_id"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="@dimen/_10sdp"-->
+<!--                android:fontFamily="@font/lato_regular"-->
+<!--                android:padding="@dimen/_1sdp"-->
+<!--                android:text="@string/sign_up_please_note_text"-->
+<!--                android:textIsSelectable="true"-->
+<!--                android:textSize="@dimen/_12ssp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/already_have_ac"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_margin="@dimen/_20sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:fontFamily="@font/lato_regular"-->
+<!--                    android:text="@string/already_account"-->
+<!--                    android:textColor="@color/color_grey"-->
+<!--                    android:textSize="@dimen/_14ssp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.496"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/btn_signup" />-->
+
+<!--            </LinearLayout>-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--    </androidx.core.widget.NestedScrollView>-->
+<!--</layout>-->
