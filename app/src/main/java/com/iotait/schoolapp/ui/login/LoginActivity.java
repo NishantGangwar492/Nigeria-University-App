@@ -1065,11 +1065,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         alertDialog.show();
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        finishAffinity();
-    }
+//    @Override
+//    public void onBackPressed() {
+//        super.onBackPressed();
+//        finishAffinity();
+//    }
 
     public void openWhatsapp(View view) {
         String url = "https://api.whatsapp.com/send?phone=+2348093785476";

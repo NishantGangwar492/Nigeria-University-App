@@ -36,7 +36,7 @@
     <string name="Rate_Us">"<u>Rate Us</u>"</string>
     <string name="Contact_Us">"<u>Contact Us</u>"</string>
     <string name="account_signup">Don\'t have an account? <u><b>SIGNUP</b></u></string>
-    <string name="welcome">WELCOME,\n Enter your email and password if you have \n created an account already:</string>
+    <string name="welcome">Enter your email and password if you have \n created an account already:</string>
     <string name="create_account_with">Create Account:</string>
     <string name="let_s_roll">Let\'s Roll</string>
     <string name="create_an_account">Create an account</string>
@@ -165,10 +165,10 @@
     <string name="interstitialad_id">ca-app-pub-3434530710838107/9563476430</string>
     <string name="rewardad_id">ca-app-pub-3434530710838107/1934549228</string>
 
-<!--        <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
-<!--        <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
-<!--        <string name="interstitialad_id">ca-app-pub-3940256099942544/1033173712</string>-->
-<!--        <string name="rewardad_id">ca-app-pub-3940256099942544/5224354917</string>-->
+    <!--        <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--        <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--        <string name="interstitialad_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--        <string name="rewardad_id">ca-app-pub-3940256099942544/5224354917</string>-->
 
     <string name="fb_banner_id">304411567192780_364753064491963</string>
     <string name="fb_interstitialad_id">304411567192780_364752497825353</string>

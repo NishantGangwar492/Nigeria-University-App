@@ -22,15 +22,14 @@ public class ActivityLoginBindingImpl extends ActivityLoginBinding  {
         sViewsWithIds.put(R.id.btn_login, 6);
         sViewsWithIds.put(R.id.txt_forgot_password, 7);
         sViewsWithIds.put(R.id.spin_kit, 8);
-        sViewsWithIds.put(R.id.textsignup, 9);
-        sViewsWithIds.put(R.id.textView3, 10);
-        sViewsWithIds.put(R.id.havving_issue_text, 11);
-        sViewsWithIds.put(R.id.btn_open_whatsapp, 12);
-        sViewsWithIds.put(R.id.linearLayout3, 13);
-        sViewsWithIds.put(R.id.btn_google, 14);
-        sViewsWithIds.put(R.id.btn_facebook, 15);
-        sViewsWithIds.put(R.id.txt_dont_have_ac, 16);
-        sViewsWithIds.put(R.id.spin_kitForGoogleAndFacebook, 17);
+        sViewsWithIds.put(R.id.textView3, 9);
+        sViewsWithIds.put(R.id.havving_issue_text, 10);
+        sViewsWithIds.put(R.id.btn_open_whatsapp, 11);
+        sViewsWithIds.put(R.id.linearLayout3, 12);
+        sViewsWithIds.put(R.id.btn_google, 13);
+        sViewsWithIds.put(R.id.btn_facebook, 14);
+        sViewsWithIds.put(R.id.txt_dont_have_ac, 15);
+        sViewsWithIds.put(R.id.spin_kitForGoogleAndFacebook, 16);
     }
     // views
     @NonNull
@@ -41,26 +40,25 @@ public class ActivityLoginBindingImpl extends ActivityLoginBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityLoginBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 18, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 17, sIncludes, sViewsWithIds));
     }
     private ActivityLoginBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (com.facebook.login.widget.LoginButton) bindings[15]
-            , (android.widget.LinearLayout) bindings[14]
+            , (com.facebook.login.widget.LoginButton) bindings[14]
+            , (android.widget.LinearLayout) bindings[13]
             , (android.widget.Button) bindings[6]
-            , (android.widget.TextView) bindings[12]
+            , (android.widget.TextView) bindings[11]
             , (android.widget.EditText) bindings[4]
             , (android.widget.EditText) bindings[5]
             , (androidx.constraintlayout.widget.Guideline) bindings[1]
-            , (android.widget.TextView) bindings[11]
-            , (android.widget.LinearLayout) bindings[3]
-            , (android.widget.LinearLayout) bindings[13]
-            , (com.github.ybq.android.spinkit.SpinKitView) bindings[8]
-            , (com.github.ybq.android.spinkit.SpinKitView) bindings[17]
-            , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[10]
+            , (android.widget.LinearLayout) bindings[3]
+            , (android.widget.LinearLayout) bindings[12]
+            , (com.github.ybq.android.spinkit.SpinKitView) bindings[8]
+            , (com.github.ybq.android.spinkit.SpinKitView) bindings[16]
+            , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[9]
-            , (android.widget.LinearLayout) bindings[16]
+            , (android.widget.LinearLayout) bindings[15]
             , (android.widget.TextView) bindings[7]
             );
         this.mboundView0 = (androidx.core.widget.NestedScrollView) bindings[0];

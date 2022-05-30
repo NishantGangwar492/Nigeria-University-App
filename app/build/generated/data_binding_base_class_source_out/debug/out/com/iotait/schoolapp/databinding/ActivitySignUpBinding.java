@@ -43,25 +43,15 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
   public final LinearLayout linearLayout11;
 
   @NonNull
+  public final TextView openSignin;
+
+  @NonNull
   public final TextView textView10;
-
-  @NonNull
-  public final TextView textView16;
-
-  @NonNull
-  public final TextView textView17;
-
-  @NonNull
-  public final TextView textView18;
-
-  @NonNull
-  public final TextView textView19;
 
   protected ActivitySignUpBinding(Object _bindingComponent, View _root, int _localFieldCount,
       TextView alreadyHaveAc, Button btnSignup, CountryCodePicker ccp, EditText editEmail,
       EditText editPassword, EditText editPhone, EditText editUsername, LinearLayout linearLayout11,
-      TextView textView10, TextView textView16, TextView textView17, TextView textView18,
-      TextView textView19) {
+      TextView openSignin, TextView textView10) {
     super(_bindingComponent, _root, _localFieldCount);
     this.alreadyHaveAc = alreadyHaveAc;
     this.btnSignup = btnSignup;
@@ -71,11 +61,8 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
     this.editPhone = editPhone;
     this.editUsername = editUsername;
     this.linearLayout11 = linearLayout11;
+    this.openSignin = openSignin;
     this.textView10 = textView10;
-    this.textView16 = textView16;
-    this.textView17 = textView17;
-    this.textView18 = textView18;
-    this.textView19 = textView19;
   }
 
   @NonNull

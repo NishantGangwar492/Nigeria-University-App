@@ -311,6 +311,8 @@ com/iotait/schoolapp/DataBindingTriggerClass.java
 com/iotait/schoolapp/ui/homepage/ui/schoolanthem/SchoolAnthem.java
  com.iotait.schoolapp.ui.homepage.ui.schoolanthem.SchoolAnthem
  com.iotait.schoolapp.ui.homepage.ui.schoolanthem.SchoolAnthem$1
+com/iotait/schoolapp/ui/login/First.java
+ com.iotait.schoolapp.ui.login.First
 com/iotait/schoolapp/ui/homepage/ui/articals/View/ArticleView.java
  com.iotait.schoolapp.ui.homepage.ui.articals.View.ArticleView
 com/iotait/schoolapp/databinding/ItemPersonalBinding.java

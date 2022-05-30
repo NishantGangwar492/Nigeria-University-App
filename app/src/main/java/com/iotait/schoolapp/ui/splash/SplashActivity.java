@@ -16,6 +16,7 @@ import androidx.databinding.DataBindingUtil;
 
 import com.iotait.schoolapp.R;
 import com.iotait.schoolapp.databinding.ActivitySplashBinding;
+import com.iotait.schoolapp.ui.login.First;
 import com.iotait.schoolapp.ui.login.LoginActivity;
 
 import java.security.MessageDigest;
@@ -49,7 +50,7 @@ public class SplashActivity extends AppCompatActivity {
 //        String deviceId = telephonyManager.getDeviceId();
         //Toast.makeText(this, ""+android_id, Toast.LENGTH_SHORT).show();
 
-        //generate keyhas for facebook login
+        //generate keyhash for facebook login
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
                     getPackageName(),
@@ -69,7 +70,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                startActivity(new Intent(SplashActivity.this, First.class));
                 finish();
             }
         },5000);

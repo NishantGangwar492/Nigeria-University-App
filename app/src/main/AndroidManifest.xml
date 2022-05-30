@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.iotait.schoolapp">
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:name=".application.AppController"
@@ -14,6 +22,9 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.login.First"
+            android:exported="false" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -35,10 +46,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-
-
-        <activity android:name=".ui.homepage.ui.leaderboard.LeaderboardinfoActivity"></activity>
-
+        <activity android:name=".ui.homepage.ui.leaderboard.LeaderboardinfoActivity" />
         <activity
             android:name=".ui.splash.SplashActivity"
             android:configChanges="orientation|screenSize"
@@ -51,29 +59,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ui.homepage.ui.premium.LearnmoreActivity" />
         <activity android:name=".ui.homepage.ui.chat.GroupAdminActivity" />
         <activity android:name=".ui.homepage.ui.chat.FullPhotoViewActivity" />
-
         <activity
             android:name=".ui.homepage.ui.chat.ChatWindowGroupActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".ui.homepage.ui.chat.ChatWindowActivity" />
-
-        <!-- <meta-data -->
+        <activity android:name=".ui.homepage.ui.chat.ChatWindowActivity" /> <!-- <meta-data -->
         <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
         <!-- android:resource="@color/colorAccent" /> -->
-
         <activity android:name=".ui.homepage.ui.articlereadmore.ArticleReadmoreActivity" />
-        <activity android:name=".ui.homepage.ui.chat.ChatListActivty" />
-
-        <!--         metadata for paystack -->
+        <activity android:name=".ui.homepage.ui.chat.ChatListActivty" /> <!-- metadata for paystack -->
         <activity
             android:name=".ui.homepage.ui.detailsnews.DetailsNewsWebView"
             android:theme="@style/AppTheme.NoActionBar" />
-
-
         <activity
             android:name=".ui.homepage.HomeNavigationActivity"
             android:hardwareAccelerated="true"
@@ -85,7 +84,6 @@
             android:screenOrientation="nosensor"
             android:theme="@style/AppTheme.Launcher"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".ui.signup.SignUpActivty"
             android:configChanges="orientation|screenSize"
@@ -108,7 +106,6 @@
         <meta-data
             android:name="co.paystack.android.PublicKey"
             android:value="pk_test_983fafb18046e47fbdb96b25c09daa298189cdea" />
-
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_premium" />
@@ -138,15 +135,5 @@
                 android:resource="@xml/filepaths" />
         </provider>
     </application>
-
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
 
 </manifest>

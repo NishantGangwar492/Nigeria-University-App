@@ -3250,6 +3250,7 @@ id btn_signup
 id btn_start_exam
 id btn_submit
 id button
+id button2
 id buttonOk
 id buttonPanel
 id button_perform_local_transaction
@@ -3623,6 +3624,7 @@ id onAttachStateChangeListener
 id onDateChanged
 id onlinePaymentFragment
 id open_graph
+id open_signin
 id os_bgimage_notif_bgimage
 id os_bgimage_notif_bgimage_align_layout
 id os_bgimage_notif_bgimage_right_aligned
@@ -3843,10 +3845,8 @@ id textView
 id textView10
 id textView11
 id textView12
-id textView16
-id textView17
-id textView18
-id textView19
+id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -3870,7 +3870,6 @@ id textinput_error
 id textinput_helper_text
 id textnews
 id textoverview
-id textsignup
 id textsubject
 id textview_reference
 id thinWorm
@@ -4048,6 +4047,7 @@ layout activity_chat_list
 layout activity_chat_window
 layout activity_chat_window_group
 layout activity_details_news_web_view
+layout activity_first
 layout activity_full_photo_view
 layout activity_group_admin
 layout activity_home_navigation
@@ -4428,6 +4428,8 @@ string common_signin_button_text
 string common_signin_button_text_long
 string congratulation
 string contact
+string contact_h1
+string contact_h2
 string contact_us
 string country_afghanistan_code
 string country_afghanistan_name

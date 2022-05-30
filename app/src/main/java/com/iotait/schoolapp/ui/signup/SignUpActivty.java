@@ -19,6 +19,7 @@ import com.iotait.schoolapp.databinding.ActivitySignUpBinding;
 import com.iotait.schoolapp.helper.CustomMessage;
 import com.iotait.schoolapp.helper.UIHelper;
 import com.iotait.schoolapp.ui.authentication.AuthenticationActivty;
+import com.iotait.schoolapp.ui.login.LoginActivity;
 import com.rilixtech.widget.countrycodepicker.Country;
 import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
 
@@ -186,6 +187,11 @@ public class SignUpActivty extends AppCompatActivity implements View.OnClickList
         Pattern p = Pattern.compile("^\\+(?:[0-9] ?){6,14}[0-9]$");
         Matcher m = p.matcher(s);
         return (m.find() && m.group().equals(s));
+    }
+
+    public void openLoginPage(View view) {
+        Intent intent = new Intent(SignUpActivty.this, LoginActivity.class);
+        startActivity(intent);
     }
 }
 

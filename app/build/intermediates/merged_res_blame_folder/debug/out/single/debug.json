@@ -1444,6 +1444,10 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xhdpi\\aboutapp.png"
     },
     {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_first.xml.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_aone.png.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\aone.png"
     },

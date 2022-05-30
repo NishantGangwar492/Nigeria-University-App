@@ -63,9 +63,6 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   public final TextView textView3;
 
   @NonNull
-  public final TextView textsignup;
-
-  @NonNull
   public final LinearLayout txtDontHaveAc;
 
   @NonNull
@@ -76,7 +73,7 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
       EditText editEmail, EditText editPassword, Guideline guideline, TextView havvingIssueText,
       LinearLayout linearLayout, LinearLayout linearLayout3, SpinKitView spinKit,
       SpinKitView spinKitForGoogleAndFacebook, TextView textView2, TextView textView3,
-      TextView textsignup, LinearLayout txtDontHaveAc, TextView txtForgotPassword) {
+      LinearLayout txtDontHaveAc, TextView txtForgotPassword) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnFacebook = btnFacebook;
     this.btnGoogle = btnGoogle;
@@ -92,7 +89,6 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
     this.spinKitForGoogleAndFacebook = spinKitForGoogleAndFacebook;
     this.textView2 = textView2;
     this.textView3 = textView3;
-    this.textsignup = textsignup;
     this.txtDontHaveAc = txtDontHaveAc;
     this.txtForgotPassword = txtForgotPassword;
   }
