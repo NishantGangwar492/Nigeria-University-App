@@ -125,23 +125,6 @@
                     app:SpinKit_Color="@color/colorPrimaryDark" />
 
 
-<!--            <TextView-->
-
-<!--                android:id="@+id/textsignup"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="30sp"-->
-<!--                android:fontFamily="@font/lato_bold"-->
-<!--                android:text="@string/create_account_with"-->
-<!--                android:textColor="@color/color_white"-->
-<!--                android:textSize="18sp"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout">-->
-
-<!--            </TextView>-->
-
-
             <!--            <LinearLayout-->
             <!--                android:id="@+id/havving_issue_textlin"-->
             <!--                android:layout_width="match_parent"-->
@@ -217,6 +200,23 @@
 
             <TextView
 
+                android:id="@+id/textsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/create_account_with"
+                android:textColor="@color/color_white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            </TextView>
+
+            <TextView
+
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -275,7 +275,7 @@
 
                     android:id="@+id/btn_google"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="40dp"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_marginLeft="@dimen/_20sdp"
                     android:layout_marginEnd="@dimen/_20sdp"
