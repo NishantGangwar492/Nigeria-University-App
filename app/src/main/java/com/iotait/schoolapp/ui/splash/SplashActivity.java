@@ -14,8 +14,12 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.facebook.CallbackManager;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.iotait.schoolapp.R;
+import com.iotait.schoolapp.databinding.ActivityLoginBinding;
 import com.iotait.schoolapp.databinding.ActivitySplashBinding;
+import com.iotait.schoolapp.helper.ProgressHelper;
 import com.iotait.schoolapp.ui.login.First;
 import com.iotait.schoolapp.ui.login.LoginActivity;
 
@@ -23,6 +27,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class SplashActivity extends AppCompatActivity {
+
+
 
     private ActivitySplashBinding splashBinding;
 

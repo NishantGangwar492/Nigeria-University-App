@@ -3870,6 +3870,7 @@ id textinput_error
 id textinput_helper_text
 id textnews
 id textoverview
+id textsignup
 id textsubject
 id textview_reference
 id thinWorm

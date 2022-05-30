@@ -1072,7 +1072,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 //    }
 
     public void openWhatsapp(View view) {
-        String url = "https://api.whatsapp.com/send?phone=+2348093785476";
+        String url = "https://wa.link/pmm0lz";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
