@@ -20,10 +20,11 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
         sViewsWithIds.put(R.id.linearLayout11, 4);
         sViewsWithIds.put(R.id.ccp, 5);
         sViewsWithIds.put(R.id.edit_phone, 6);
-        sViewsWithIds.put(R.id.edit_password, 7);
-        sViewsWithIds.put(R.id.btn_signup, 8);
-        sViewsWithIds.put(R.id.already_have_ac, 9);
-        sViewsWithIds.put(R.id.open_signin, 10);
+        sViewsWithIds.put(R.id.view11, 7);
+        sViewsWithIds.put(R.id.edit_password, 8);
+        sViewsWithIds.put(R.id.btn_signup, 9);
+        sViewsWithIds.put(R.id.already_have_ac, 10);
+        sViewsWithIds.put(R.id.open_signin, 11);
     }
     // views
     @NonNull
@@ -34,20 +35,21 @@ public class ActivitySignUpBindingImpl extends ActivitySignUpBinding  {
     // Inverse Binding Event Handlers
 
     public ActivitySignUpBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 11, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 12, sIncludes, sViewsWithIds));
     }
     private ActivitySignUpBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.TextView) bindings[9]
-            , (android.widget.Button) bindings[8]
+            , (android.widget.TextView) bindings[10]
+            , (android.widget.Button) bindings[9]
             , (com.rilixtech.widget.countrycodepicker.CountryCodePicker) bindings[5]
             , (android.widget.EditText) bindings[3]
-            , (android.widget.EditText) bindings[7]
+            , (android.widget.EditText) bindings[8]
             , (android.widget.EditText) bindings[6]
             , (android.widget.EditText) bindings[2]
             , (android.widget.LinearLayout) bindings[4]
-            , (android.widget.TextView) bindings[10]
+            , (android.widget.TextView) bindings[11]
             , (android.widget.TextView) bindings[1]
+            , (android.view.View) bindings[7]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

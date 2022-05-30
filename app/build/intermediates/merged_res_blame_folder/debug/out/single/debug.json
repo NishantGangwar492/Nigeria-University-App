@@ -28,12 +28,12 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-hdpi\\pts.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_leadericon.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\leadericon.png"
-    },
-    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_message_left_image.xml.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_message_left_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_leadericon.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\leadericon.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_articals.xml.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-mdpi\\showimage.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_chat_right_bg.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_chat_right_bg.png"
-    },
-    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_button_background.xml.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xhdpi\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_chat_right_bg.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_chat_right_bg.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_layout_background.xml.flat",
@@ -96,16 +96,16 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable\\option_bg.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_down.xml.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_down.xml"
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ourfacebook.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\ourfacebook.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_latest_news.xml.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_latest_news.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ourfacebook.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\ourfacebook.png"
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_down.xml.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_down.xml"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_chatbot.png.flat",
@@ -124,16 +124,16 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-mdpi\\rateus.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_custom_exam.xml.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_custom_exam.xml"
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_back.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-ldpi\\back.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_unnnews.png.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xhdpi\\unnnews.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_back.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-ldpi\\back.png"
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_custom_exam.xml.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_custom_exam.xml"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_et_style.xml.flat",
@@ -204,12 +204,12 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_bot.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_weeklycontestnavigation.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-mdpi\\weeklycontestnavigation.png"
-    },
-    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dislikeclick.png.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-v24\\dislikeclick.png"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_weeklycontestnavigation.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-mdpi\\weeklycontestnavigation.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_layout.xml.flat",
@@ -268,12 +268,12 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-ldpi\\ic_premium.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app_icon_foreground.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\mipmap-hdpi\\app_icon_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_articales.png.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-mdpi\\articales.png"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\mipmap-hdpi\\app_icon_foreground.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_message_left.xml.flat",
@@ -284,20 +284,20 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-hdpi\\questioncolor.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_takeexamcolor.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\takeexamcolor.png"
-    },
-    {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_get_reward.xml.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_get_reward.xml"
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contest_result.xml.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_contest_result.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_user.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_user.png"
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_get_reward.xml.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_get_reward.xml"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_takeexamcolor.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\takeexamcolor.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_layout_selector.xml.flat",
@@ -308,12 +308,12 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_exam_preview.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_google.png.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-ldpi\\ic_google.png"
-    },
-    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_schoolanthem.png.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-xxhdpi\\schoolanthem.png"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_google.png.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-ldpi\\ic_google.png"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mobile_recharge.xml.flat",
@@ -376,12 +376,12 @@
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\drawable-ldpi\\aboutapp.png"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat_right_bg.xml.flat",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat_right_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_chat_right_bg.png.flat",
         "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_chat_right_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_chat_right_bg.xml.flat",
+        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_chat_right_bg.xml"
     },
     {
         "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share.xml.flat",
