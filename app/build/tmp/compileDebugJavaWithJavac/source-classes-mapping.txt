@@ -1,10 +1,10 @@
-com/iotait/schoolapp/databinding/FragmentQuestionBinding.java
- com.iotait.schoolapp.databinding.FragmentQuestionBinding
 com/iotait/schoolapp/helper/UIHelper.java
  com.iotait.schoolapp.helper.UIHelper
  com.iotait.schoolapp.helper.UIHelper$1
  com.iotait.schoolapp.helper.UIHelper$2
  com.iotait.schoolapp.helper.UIHelper$3
+com/iotait/schoolapp/databinding/FragmentQuestionBinding.java
+ com.iotait.schoolapp.databinding.FragmentQuestionBinding
 com/iotait/schoolapp/databinding/ActivityChatWindowGroupBinding.java
  com.iotait.schoolapp.databinding.ActivityChatWindowGroupBinding
 com/iotait/schoolapp/ui/homepage/ui/exam/custom/exam_details/CustomExamDetailsFragment.java
@@ -48,6 +48,8 @@ com/iotait/schoolapp/databinding/ItemMakeadminBinding.java
  com.iotait.schoolapp.databinding.ItemMakeadminBinding
 com/iotait/schoolapp/notification/APIService.java
  com.iotait.schoolapp.notification.APIService
+com/iotait/schoolapp/notification/Token.java
+ com.iotait.schoolapp.notification.Token
 com/iotait/schoolapp/ui/homepage/ui/premium/bankingsystem/BankingSystemFragment.java
  com.iotait.schoolapp.ui.homepage.ui.premium.bankingsystem.BankingSystemFragment
  com.iotait.schoolapp.ui.homepage.ui.premium.bankingsystem.BankingSystemFragment$1
@@ -59,8 +61,6 @@ com/iotait/schoolapp/ui/homepage/ui/premium/bankingsystem/BankingSystemFragment.
  com.iotait.schoolapp.ui.homepage.ui.premium.bankingsystem.BankingSystemFragment$7
  com.iotait.schoolapp.ui.homepage.ui.premium.bankingsystem.BankingSystemFragment$7$1
  com.iotait.schoolapp.ui.homepage.ui.premium.bankingsystem.BankingSystemFragment$8
-com/iotait/schoolapp/notification/Token.java
- com.iotait.schoolapp.notification.Token
 com/iotait/schoolapp/ui/homepage/ui/syllabus/syllabusclickfragment/adapter/SyllabusYearItemAdapter.java
  com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.adapter.SyllabusYearItemAdapter
  com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.adapter.SyllabusYearItemAdapter$1
@@ -119,10 +119,10 @@ com/iotait/schoolapp/ui/homepage/ui/exam/adapter/QuestionAdapter.java
  com.iotait.schoolapp.ui.homepage.ui.exam.adapter.QuestionAdapter$ViewHolder
 com/iotait/schoolapp/databinding/FragmentLearMoreForPremiumBinding.java
  com.iotait.schoolapp.databinding.FragmentLearMoreForPremiumBinding
-com/iotait/schoolapp/ui/homepage/ui/unnfaq/model/SelectionItemFaq.java
- com.iotait.schoolapp.ui.homepage.ui.unnfaq.model.SelectionItemFaq
 com/iotait/schoolapp/common/Common.java
  com.iotait.schoolapp.common.Common
+com/iotait/schoolapp/ui/homepage/ui/unnfaq/model/SelectionItemFaq.java
+ com.iotait.schoolapp.ui.homepage.ui.unnfaq.model.SelectionItemFaq
 com/iotait/schoolapp/ui/homepage/ui/chat/ChatListActivty.java
  com.iotait.schoolapp.ui.homepage.ui.chat.ChatListActivty
  com.iotait.schoolapp.ui.homepage.ui.chat.ChatListActivty$1
@@ -188,10 +188,10 @@ com/iotait/schoolapp/notification/chatnotif/ReceivedNotifications.java
  com.iotait.schoolapp.notification.chatnotif.ReceivedNotifications
 com/iotait/schoolapp/databinding/DialogResultBinding.java
  com.iotait.schoolapp.databinding.DialogResultBinding
-com/iotait/schoolapp/databinding/FragmentCustomExamBinding.java
- com.iotait.schoolapp.databinding.FragmentCustomExamBinding
 com/iotait/schoolapp/helper/Customlog.java
  com.iotait.schoolapp.helper.Customlog
+com/iotait/schoolapp/databinding/FragmentCustomExamBinding.java
+ com.iotait.schoolapp.databinding.FragmentCustomExamBinding
 com/iotait/schoolapp/ui/homepage/ui/chat/common/ChatRelatedCommonFunction.java
  com.iotait.schoolapp.ui.homepage.ui.chat.common.ChatRelatedCommonFunction
  com.iotait.schoolapp.ui.homepage.ui.chat.common.ChatRelatedCommonFunction$1
@@ -228,10 +228,10 @@ com/iotait/schoolapp/ui/homepage/ui/chat/common/ChatRelatedCommonFunction.java
  com.iotait.schoolapp.ui.homepage.ui.chat.common.ChatRelatedCommonFunction$9
 com/iotait/schoolapp/ui/homepage/ui/syllabus/view/SyllabusClickView.java
  com.iotait.schoolapp.ui.homepage.ui.syllabus.view.SyllabusClickView
-com/iotait/schoolapp/ui/homepage/ui/question/details/models/QuestionItem.java
- com.iotait.schoolapp.ui.homepage.ui.question.details.models.QuestionItem
 com/iotait/schoolapp/data/network/ApiInterface.java
  com.iotait.schoolapp.data.network.ApiInterface
+com/iotait/schoolapp/ui/homepage/ui/question/details/models/QuestionItem.java
+ com.iotait.schoolapp.ui.homepage.ui.question.details.models.QuestionItem
 com/iotait/schoolapp/ui/homepage/ui/chat/adapters/PublicRoomAdapter.java
  com.iotait.schoolapp.ui.homepage.ui.chat.adapters.PublicRoomAdapter
  com.iotait.schoolapp.ui.homepage.ui.chat.adapters.PublicRoomAdapter$1
@@ -242,13 +242,13 @@ com/iotait/schoolapp/ui/signup/SignUpActivty.java
  com.iotait.schoolapp.ui.signup.SignUpActivty$1
  com.iotait.schoolapp.ui.signup.SignUpActivty$2
  com.iotait.schoolapp.ui.signup.SignUpActivty$3
-com/iotait/schoolapp/ui/homepage/ui/question/adapter/RecyclerYearItemAdapter.java
- com.iotait.schoolapp.ui.homepage.ui.question.adapter.RecyclerYearItemAdapter
- com.iotait.schoolapp.ui.homepage.ui.question.adapter.RecyclerYearItemAdapter$1
- com.iotait.schoolapp.ui.homepage.ui.question.adapter.RecyclerYearItemAdapter$ViewHolder
-com/iotait/schoolapp/ui/homepage/ui/unnfaq/adapter/FaqAdapter.java
- com.iotait.schoolapp.ui.homepage.ui.unnfaq.adapter.FaqAdapter
- com.iotait.schoolapp.ui.homepage.ui.unnfaq.adapter.FaqAdapter$ViewHolder
+ com.iotait.schoolapp.ui.signup.SignUpActivty$4
+ com.iotait.schoolapp.ui.signup.SignUpActivty$5
+ com.iotait.schoolapp.ui.signup.SignUpActivty$6
+ com.iotait.schoolapp.ui.signup.SignUpActivty$7
+ com.iotait.schoolapp.ui.signup.SignUpActivty$7$1
+ com.iotait.schoolapp.ui.signup.SignUpActivty$8
+ com.iotait.schoolapp.ui.signup.SignUpActivty$9
 com/iotait/schoolapp/ui/homepage/HomeNavigationActivity.java
  com.iotait.schoolapp.ui.homepage.HomeNavigationActivity
  com.iotait.schoolapp.ui.homepage.HomeNavigationActivity$1
@@ -262,6 +262,15 @@ com/iotait/schoolapp/ui/homepage/HomeNavigationActivity.java
  com.iotait.schoolapp.ui.homepage.HomeNavigationActivity$8$1
  com.iotait.schoolapp.ui.homepage.HomeNavigationActivity$9
  com.iotait.schoolapp.ui.homepage.HomeNavigationActivity$9$1
+com/iotait/schoolapp/ui/homepage/ui/question/adapter/RecyclerYearItemAdapter.java
+ com.iotait.schoolapp.ui.homepage.ui.question.adapter.RecyclerYearItemAdapter
+ com.iotait.schoolapp.ui.homepage.ui.question.adapter.RecyclerYearItemAdapter$1
+ com.iotait.schoolapp.ui.homepage.ui.question.adapter.RecyclerYearItemAdapter$ViewHolder
+com/iotait/schoolapp/ui/homepage/ui/unnfaq/adapter/FaqAdapter.java
+ com.iotait.schoolapp.ui.homepage.ui.unnfaq.adapter.FaqAdapter
+ com.iotait.schoolapp.ui.homepage.ui.unnfaq.adapter.FaqAdapter$ViewHolder
+com/iotait/schoolapp/databinding/FragmentCustomExamDetailsBinding.java
+ com.iotait.schoolapp.databinding.FragmentCustomExamDetailsBinding
 com/iotait/schoolapp/ui/homepage/ui/home/HomeFragment.java
  com.iotait.schoolapp.ui.homepage.ui.home.HomeFragment
  com.iotait.schoolapp.ui.homepage.ui.home.HomeFragment$1
@@ -284,8 +293,6 @@ com/iotait/schoolapp/ui/homepage/ui/home/HomeFragment.java
  com.iotait.schoolapp.ui.homepage.ui.home.HomeFragment$7
  com.iotait.schoolapp.ui.homepage.ui.home.HomeFragment$8
  com.iotait.schoolapp.ui.homepage.ui.home.HomeFragment$9
-com/iotait/schoolapp/databinding/FragmentCustomExamDetailsBinding.java
- com.iotait.schoolapp.databinding.FragmentCustomExamDetailsBinding
 com/iotait/schoolapp/database/dao/MyDao.java
  com.iotait.schoolapp.database.dao.MyDao
 com/iotait/schoolapp/ui/homepage/ui/home/view/OverViewHomeView.java
@@ -332,6 +339,28 @@ com/iotait/schoolapp/databinding/ItemPublicroomBinding.java
  com.iotait.schoolapp.databinding.ItemPublicroomBinding
 com/iotait/schoolapp/ui/homepage/ui/weeklycontest/takecontestfragment/models/AnswerModelForContest.java
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.takecontestfragment.models.AnswerModelForContest
+com/iotait/schoolapp/ui/homepage/ui/exam/fullexam/FullExamFragment.java
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$1
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$10
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$11
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$12
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$13
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$14
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$15
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$16
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$17
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$18
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$19
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$2
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$20
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$3
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$4
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$5
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$6
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$7
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$8
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$9
 com/iotait/schoolapp/ui/homepage/ui/weeklycontest/WeeklyContest.java
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.WeeklyContest
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.WeeklyContest$1
@@ -358,34 +387,12 @@ com/iotait/schoolapp/ui/homepage/ui/weeklycontest/WeeklyContest.java
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.WeeklyContest$7
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.WeeklyContest$8
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.WeeklyContest$9
-com/iotait/schoolapp/ui/homepage/ui/exam/fullexam/FullExamFragment.java
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$1
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$10
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$11
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$12
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$13
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$14
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$15
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$16
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$17
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$18
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$19
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$2
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$20
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$3
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$4
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$5
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$6
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$7
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$8
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.FullExamFragment$9
 com/iotait/schoolapp/databinding/RowItemYearBinding.java
  com.iotait.schoolapp.databinding.RowItemYearBinding
-com/iotait/schoolapp/ui/homepage/ui/syllabus/syllabusclickfragment/view/AddSyllabusView.java
- com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.view.AddSyllabusView
 com/iotait/schoolapp/ui/homepage/ui/premium/learnmorepackage/LearnMoreForBesic.java
  com.iotait.schoolapp.ui.homepage.ui.premium.learnmorepackage.LearnMoreForBesic
+com/iotait/schoolapp/ui/homepage/ui/syllabus/syllabusclickfragment/view/AddSyllabusView.java
+ com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.view.AddSyllabusView
 com/iotait/schoolapp/ui/homepage/ui/leaderboard/monthlytop/adapter/LeaderBoardAdapterForMonthlyTop.java
  com.iotait.schoolapp.ui.homepage.ui.leaderboard.monthlytop.adapter.LeaderBoardAdapterForMonthlyTop
  com.iotait.schoolapp.ui.homepage.ui.leaderboard.monthlytop.adapter.LeaderBoardAdapterForMonthlyTop$1
@@ -473,12 +480,12 @@ com/iotait/schoolapp/ui/homepage/ui/question/details/QuestionDetailsFragment.jav
  com.iotait.schoolapp.ui.homepage.ui.question.details.QuestionDetailsFragment$5$2
  com.iotait.schoolapp.ui.homepage.ui.question.details.QuestionDetailsFragment$6
  com.iotait.schoolapp.ui.homepage.ui.question.details.QuestionDetailsFragment$7
+com/iotait/schoolapp/databinding/FragmentAllTimeBinding.java
+ com.iotait.schoolapp.databinding.FragmentAllTimeBinding
 com/iotait/schoolapp/ui/homepage/ui/notification/NotificationFragment.java
  com.iotait.schoolapp.ui.homepage.ui.notification.NotificationFragment
  com.iotait.schoolapp.ui.homepage.ui.notification.NotificationFragment$1
  com.iotait.schoolapp.ui.homepage.ui.notification.NotificationFragment$2
-com/iotait/schoolapp/databinding/FragmentAllTimeBinding.java
- com.iotait.schoolapp.databinding.FragmentAllTimeBinding
 com/iotait/schoolapp/databinding/PhoneNumberRequestDialogBinding.java
  com.iotait.schoolapp.databinding.PhoneNumberRequestDialogBinding
 com/iotait/schoolapp/ui/homepage/ui/leaderboard/model/SubjectListModel.java
@@ -537,12 +544,12 @@ com/iotait/schoolapp/databinding/CustomImageViwerBinding.java
  com.iotait.schoolapp.databinding.CustomImageViwerBinding
 com/iotait/schoolapp/databinding/ItemUnnNewsBinding.java
  com.iotait.schoolapp.databinding.ItemUnnNewsBinding
+com/iotait/schoolapp/ui/homepage/ui/exam/fullexam/models/AnswerModel.java
+ com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.models.AnswerModel
 com/iotait/schoolapp/ui/homepage/ui/unn_news/UnnNewsViewModel.java
  com.iotait.schoolapp.ui.homepage.ui.unn_news.UnnNewsViewModel
  com.iotait.schoolapp.ui.homepage.ui.unn_news.UnnNewsViewModel$1
  com.iotait.schoolapp.ui.homepage.ui.unn_news.UnnNewsViewModel$2
-com/iotait/schoolapp/ui/homepage/ui/exam/fullexam/models/AnswerModel.java
- com.iotait.schoolapp.ui.homepage.ui.exam.fullexam.models.AnswerModel
 com/iotait/schoolapp/ui/homepage/ui/home/model/LatestNewsResponse.java
  com.iotait.schoolapp.ui.homepage.ui.home.model.LatestNewsResponse
 com/iotait/schoolapp/ui/homepage/ui/leaderboard/model/userDetailsModel.java
@@ -566,14 +573,14 @@ com/iotait/schoolapp/ui/homepage/ui/leaderboard/model/LeaderBoardModel.java
  com.iotait.schoolapp.ui.homepage.ui.leaderboard.model.LeaderBoardModel
 com/iotait/schoolapp/databinding/ItemMessageLeftImageBinding.java
  com.iotait.schoolapp.databinding.ItemMessageLeftImageBinding
+com/iotait/schoolapp/databinding/InSmsTextBinding.java
+ com.iotait.schoolapp.databinding.InSmsTextBinding
 com/iotait/schoolapp/ui/homepage/ui/chat/GroupAdminActivity.java
  com.iotait.schoolapp.ui.homepage.ui.chat.GroupAdminActivity
  com.iotait.schoolapp.ui.homepage.ui.chat.GroupAdminActivity$1
  com.iotait.schoolapp.ui.homepage.ui.chat.GroupAdminActivity$2
  com.iotait.schoolapp.ui.homepage.ui.chat.GroupAdminActivity$3
  com.iotait.schoolapp.ui.homepage.ui.chat.GroupAdminActivity$4
-com/iotait/schoolapp/databinding/InSmsTextBinding.java
- com.iotait.schoolapp.databinding.InSmsTextBinding
 com/iotait/schoolapp/databinding/ActivityAuthenticationBinding.java
  com.iotait.schoolapp.databinding.ActivityAuthenticationBinding
 com/iotait/schoolapp/databinding/ItemArticalsBinding.java
@@ -632,6 +639,8 @@ com/iotait/schoolapp/ui/homepage/ui/weeklycontest/subjectadapter/RecyclerWeeklyC
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.subjectadapter.RecyclerWeeklyContestSubjectAdapter
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.subjectadapter.RecyclerWeeklyContestSubjectAdapter$1
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.subjectadapter.RecyclerWeeklyContestSubjectAdapter$ViewHolder
+com/iotait/schoolapp/databinding/ItemQuestionSubjectBinding.java
+ com.iotait.schoolapp.databinding.ItemQuestionSubjectBinding
 com/iotait/schoolapp/ui/homepage/ui/weeklycontest/getreward/GetRewardFragment.java
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.getreward.GetRewardFragment
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.getreward.GetRewardFragment$1
@@ -640,8 +649,6 @@ com/iotait/schoolapp/ui/homepage/ui/weeklycontest/getreward/GetRewardFragment.ja
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.getreward.GetRewardFragment$4
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.getreward.GetRewardFragment$4$1
  com.iotait.schoolapp.ui.homepage.ui.weeklycontest.getreward.GetRewardFragment$4$2
-com/iotait/schoolapp/databinding/ItemQuestionSubjectBinding.java
- com.iotait.schoolapp.databinding.ItemQuestionSubjectBinding
 com/iotait/schoolapp/ui/homepage/ui/chat/models/ModeratorDetails.java
  com.iotait.schoolapp.ui.homepage.ui.chat.models.ModeratorDetails
 com/iotait/schoolapp/databinding/ItemActivenowBinding.java
@@ -666,12 +673,12 @@ com/iotait/schoolapp/ui/homepage/ui/leaderboard/view/LeaderBoardView.java
  com.iotait.schoolapp.ui.homepage.ui.leaderboard.view.LeaderBoardView
 com/iotait/schoolapp/databinding/ItemSyllabusSubjectBinding.java
  com.iotait.schoolapp.databinding.ItemSyllabusSubjectBinding
+com/iotait/schoolapp/helper/CustomMessage.java
+ com.iotait.schoolapp.helper.CustomMessage
 com/iotait/schoolapp/ui/homepage/ui/unnfaq/UnnFaqFragment.java
  com.iotait.schoolapp.ui.homepage.ui.unnfaq.UnnFaqFragment
  com.iotait.schoolapp.ui.homepage.ui.unnfaq.UnnFaqFragment$1
  com.iotait.schoolapp.ui.homepage.ui.unnfaq.UnnFaqFragment$2
-com/iotait/schoolapp/helper/CustomMessage.java
- com.iotait.schoolapp.helper.CustomMessage
 com/iotait/schoolapp/databinding/ItemArticalsNotificationBinding.java
  com.iotait.schoolapp.databinding.ItemArticalsNotificationBinding
 com/iotait/schoolapp/utils/EndlessRecyclerViewScrollListener.java
@@ -702,10 +709,10 @@ com/iotait/schoolapp/database/tables/ArticleNotification.java
  com.iotait.schoolapp.database.tables.ArticleNotification
 com/iotait/schoolapp/ui/homepage/ui/chat/constant/Constant.java
  com.iotait.schoolapp.ui.homepage.ui.chat.constant.Constant
-com/iotait/schoolapp/databinding/FragmentPremiumProcessBinding.java
- com.iotait.schoolapp.databinding.FragmentPremiumProcessBinding
 com/iotait/schoolapp/databinding/FragmentOnlinePaymentBinding.java
  com.iotait.schoolapp.databinding.FragmentOnlinePaymentBinding
+com/iotait/schoolapp/databinding/FragmentPremiumProcessBinding.java
+ com.iotait.schoolapp.databinding.FragmentPremiumProcessBinding
 com/iotait/schoolapp/databinding/FragmentTakeContestExamBinding.java
  com.iotait.schoolapp.databinding.FragmentTakeContestExamBinding
 com/iotait/schoolapp/databinding/DialogPointBinding.java
@@ -738,6 +745,8 @@ com/iotait/schoolapp/databinding/FragmentQuestionDetailsBinding.java
  com.iotait.schoolapp.databinding.FragmentQuestionDetailsBinding
 com/iotait/schoolapp/databinding/RechargePaymentRequestDialogBinding.java
  com.iotait.schoolapp.databinding.RechargePaymentRequestDialogBinding
+com/iotait/schoolapp/helper/FragmentHelper.java
+ com.iotait.schoolapp.helper.FragmentHelper
 com/iotait/schoolapp/ui/homepage/ui/chat/common/CommentKeyBoardFix.java
  com.iotait.schoolapp.ui.homepage.ui.chat.common.CommentKeyBoardFix
 com/iotait/schoolapp/ui/homepage/ui/exam/custom/CustomExamFragment.java
@@ -764,8 +773,6 @@ com/iotait/schoolapp/ui/homepage/ui/exam/custom/CustomExamFragment.java
  com.iotait.schoolapp.ui.homepage.ui.exam.custom.CustomExamFragment$7
  com.iotait.schoolapp.ui.homepage.ui.exam.custom.CustomExamFragment$8
  com.iotait.schoolapp.ui.homepage.ui.exam.custom.CustomExamFragment$9
-com/iotait/schoolapp/helper/FragmentHelper.java
- com.iotait.schoolapp.helper.FragmentHelper
 com/iotait/schoolapp/databinding/ActivityArticleReadmoreBinding.java
  com.iotait.schoolapp.databinding.ActivityArticleReadmoreBinding
 com/iotait/schoolapp/ui/homepage/ui/aboutapp/AboutAppFragment.java
@@ -793,8 +800,6 @@ com/iotait/schoolapp/ui/homepage/ui/syllabus/syllabusclickfragment/model/Syllabu
  com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.model.SyllabusModel
 com/iotait/schoolapp/notification/Client.java
  com.iotait.schoolapp.notification.Client
-com/iotait/schoolapp/databinding/FragmentWeeklyTopBinding.java
- com.iotait.schoolapp.databinding.FragmentWeeklyTopBinding
 com/iotait/schoolapp/ui/homepage/ui/articlereadmore/ArticleReadmoreActivity.java
  com.iotait.schoolapp.ui.homepage.ui.articlereadmore.ArticleReadmoreActivity
  com.iotait.schoolapp.ui.homepage.ui.articlereadmore.ArticleReadmoreActivity$1
@@ -819,6 +824,8 @@ com/iotait/schoolapp/ui/homepage/ui/articlereadmore/ArticleReadmoreActivity.java
  com.iotait.schoolapp.ui.homepage.ui.articlereadmore.ArticleReadmoreActivity$6$4
  com.iotait.schoolapp.ui.homepage.ui.articlereadmore.ArticleReadmoreActivity$6$5
  com.iotait.schoolapp.ui.homepage.ui.articlereadmore.ArticleReadmoreActivity$6$6
+com/iotait/schoolapp/databinding/FragmentWeeklyTopBinding.java
+ com.iotait.schoolapp.databinding.FragmentWeeklyTopBinding
 com/iotait/schoolapp/notification/chatnotif/SendNotifications.java
  com.iotait.schoolapp.notification.chatnotif.SendNotifications
  com.iotait.schoolapp.notification.chatnotif.SendNotifications$1
@@ -832,8 +839,6 @@ com/iotait/schoolapp/ui/homepage/ui/unn_news/adapter/UnnNewsAdapter.java
  com.iotait.schoolapp.ui.homepage.ui.unn_news.adapter.UnnNewsAdapter
  com.iotait.schoolapp.ui.homepage.ui.unn_news.adapter.UnnNewsAdapter$1
  com.iotait.schoolapp.ui.homepage.ui.unn_news.adapter.UnnNewsAdapter$ViewHolder
-com/iotait/schoolapp/ui/homepage/ui/unnfaq/interfaceClass/FaqInterface.java
- com.iotait.schoolapp.ui.homepage.ui.unnfaq.interfaceClass.FaqInterface
 com/iotait/schoolapp/ui/homepage/ui/premium/mobileprecharge/MobileRechargeFragment.java
  com.iotait.schoolapp.ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment
  com.iotait.schoolapp.ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment$1
@@ -845,6 +850,8 @@ com/iotait/schoolapp/ui/homepage/ui/premium/mobileprecharge/MobileRechargeFragme
  com.iotait.schoolapp.ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment$7
  com.iotait.schoolapp.ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment$8
  com.iotait.schoolapp.ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment$8$1
+com/iotait/schoolapp/ui/homepage/ui/unnfaq/interfaceClass/FaqInterface.java
+ com.iotait.schoolapp.ui.homepage.ui.unnfaq.interfaceClass.FaqInterface
 com/iotait/schoolapp/utils/FilePathHelper.java
  com.iotait.schoolapp.utils.FilePathHelper
 com/iotait/schoolapp/ui/homepage/ui/chat/adapters/GroupAdminAdapter.java
@@ -938,8 +945,6 @@ com/iotait/schoolapp/databinding/OutSmsTextBinding.java
  com.iotait.schoolapp.databinding.OutSmsTextBinding
 com/iotait/schoolapp/databinding/FragmentSyllabusItemClickBinding.java
  com.iotait.schoolapp.databinding.FragmentSyllabusItemClickBinding
-com/iotait/schoolapp/ui/homepage/ui/home/model/OverViewModel.java
- com.iotait.schoolapp.ui.homepage.ui.home.model.OverViewModel
 com/iotait/schoolapp/ui/homepage/ui/exam/TakeExamFragment.java
  com.iotait.schoolapp.ui.homepage.ui.exam.TakeExamFragment
  com.iotait.schoolapp.ui.homepage.ui.exam.TakeExamFragment$1
@@ -954,6 +959,8 @@ com/iotait/schoolapp/ui/homepage/ui/exam/TakeExamFragment.java
  com.iotait.schoolapp.ui.homepage.ui.exam.TakeExamFragment$7
  com.iotait.schoolapp.ui.homepage.ui.exam.TakeExamFragment$8
  com.iotait.schoolapp.ui.homepage.ui.exam.TakeExamFragment$9
+com/iotait/schoolapp/ui/homepage/ui/home/model/OverViewModel.java
+ com.iotait.schoolapp.ui.homepage.ui.home.model.OverViewModel
 com/iotait/schoolapp/ui/homepage/ui/leaderboard/weeklytop/adapter/LeaderBoardAdapterForWeeklyTop.java
  com.iotait.schoolapp.ui.homepage.ui.leaderboard.weeklytop.adapter.LeaderBoardAdapterForWeeklyTop
  com.iotait.schoolapp.ui.homepage.ui.leaderboard.weeklytop.adapter.LeaderBoardAdapterForWeeklyTop$1
@@ -974,6 +981,8 @@ com/iotait/schoolapp/application/AppController.java
  com.iotait.schoolapp.application.AppController$1
 com/iotait/schoolapp/databinding/FragmentContactusBinding.java
  com.iotait.schoolapp.databinding.FragmentContactusBinding
+com/iotait/schoolapp/data/network/RetrofitClient.java
+ com.iotait.schoolapp.data.network.RetrofitClient
 com/iotait/schoolapp/ui/homepage/ui/exam/exampreview/ExamPreviewFragment.java
  com.iotait.schoolapp.ui.homepage.ui.exam.exampreview.ExamPreviewFragment
  com.iotait.schoolapp.ui.homepage.ui.exam.exampreview.ExamPreviewFragment$1
@@ -991,8 +1000,6 @@ com/iotait/schoolapp/ui/homepage/ui/exam/exampreview/ExamPreviewFragment.java
  com.iotait.schoolapp.ui.homepage.ui.exam.exampreview.ExamPreviewFragment$7
  com.iotait.schoolapp.ui.homepage.ui.exam.exampreview.ExamPreviewFragment$8
  com.iotait.schoolapp.ui.homepage.ui.exam.exampreview.ExamPreviewFragment$9
-com/iotait/schoolapp/data/network/RetrofitClient.java
- com.iotait.schoolapp.data.network.RetrofitClient
 com/iotait/schoolapp/ui/homepage/ui/syllabus/syllabusclickfragment/SyllabusItemClickFragment.java
  com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.SyllabusItemClickFragment
  com.iotait.schoolapp.ui.homepage.ui.syllabus.syllabusclickfragment.SyllabusItemClickFragment$1

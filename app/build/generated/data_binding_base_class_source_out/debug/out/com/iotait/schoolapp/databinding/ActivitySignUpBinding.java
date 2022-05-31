@@ -22,10 +22,16 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
   public final TextView alreadyHaveAc;
 
   @NonNull
+  public final LinearLayout btnGoogle;
+
+  @NonNull
   public final Button btnSignup;
 
   @NonNull
   public final CountryCodePicker ccp;
+
+  @NonNull
+  public final TextView createAccount;
 
   @NonNull
   public final EditText editEmail;
@@ -52,13 +58,16 @@ public abstract class ActivitySignUpBinding extends ViewDataBinding {
   public final View view11;
 
   protected ActivitySignUpBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      TextView alreadyHaveAc, Button btnSignup, CountryCodePicker ccp, EditText editEmail,
-      EditText editPassword, EditText editPhone, EditText editUsername, LinearLayout linearLayout11,
-      TextView openSignin, TextView textView10, View view11) {
+      TextView alreadyHaveAc, LinearLayout btnGoogle, Button btnSignup, CountryCodePicker ccp,
+      TextView createAccount, EditText editEmail, EditText editPassword, EditText editPhone,
+      EditText editUsername, LinearLayout linearLayout11, TextView openSignin, TextView textView10,
+      View view11) {
     super(_bindingComponent, _root, _localFieldCount);
     this.alreadyHaveAc = alreadyHaveAc;
+    this.btnGoogle = btnGoogle;
     this.btnSignup = btnSignup;
     this.ccp = ccp;
+    this.createAccount = createAccount;
     this.editEmail = editEmail;
     this.editPassword = editPassword;
     this.editPhone = editPhone;

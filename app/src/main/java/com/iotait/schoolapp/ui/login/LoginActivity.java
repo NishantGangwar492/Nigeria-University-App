@@ -111,6 +111,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         loginBinding.btnGoogle.setOnClickListener(this);
         loginBinding.btnFacebook.setReadPermissions("email");
         mCallbackManager = CallbackManager.Factory.create();
+
+
         loginBinding.btnFacebook.registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {

@@ -10,7 +10,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.iotait.schoolapp.R;
 import com.iotait.schoolapp.databinding.ActivityFullPhotoViewBinding;
-import com.iotait.schoolapp.databinding.ActivityFullPhotoViewBindingImpl;
+//import com.iotait.schoolapp.databinding.ActivityFullPhotoViewBindingImpl;
 
 public class FullPhotoViewActivity extends AppCompatActivity {
 
