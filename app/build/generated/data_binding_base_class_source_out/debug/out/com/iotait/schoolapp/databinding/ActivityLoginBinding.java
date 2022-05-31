@@ -45,6 +45,9 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   public final TextView havvingIssueText;
 
   @NonNull
+  public final LinearLayout havvingIssueTextlin;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
@@ -60,9 +63,6 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   public final TextView textView2;
 
   @NonNull
-  public final TextView textView3;
-
-  @NonNull
   public final TextView textsignup;
 
   @NonNull
@@ -74,8 +74,8 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
   protected ActivityLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
       LoginButton btnFacebook, LinearLayout btnGoogle, Button btnLogin, TextView btnOpenWhatsapp,
       EditText editEmail, EditText editPassword, Guideline guideline, TextView havvingIssueText,
-      LinearLayout linearLayout, LinearLayout linearLayout3, SpinKitView spinKit,
-      SpinKitView spinKitForGoogleAndFacebook, TextView textView2, TextView textView3,
+      LinearLayout havvingIssueTextlin, LinearLayout linearLayout, LinearLayout linearLayout3,
+      SpinKitView spinKit, SpinKitView spinKitForGoogleAndFacebook, TextView textView2,
       TextView textsignup, LinearLayout txtDontHaveAc, TextView txtForgotPassword) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnFacebook = btnFacebook;
@@ -86,12 +86,12 @@ public abstract class ActivityLoginBinding extends ViewDataBinding {
     this.editPassword = editPassword;
     this.guideline = guideline;
     this.havvingIssueText = havvingIssueText;
+    this.havvingIssueTextlin = havvingIssueTextlin;
     this.linearLayout = linearLayout;
     this.linearLayout3 = linearLayout3;
     this.spinKit = spinKit;
     this.spinKitForGoogleAndFacebook = spinKitForGoogleAndFacebook;
     this.textView2 = textView2;
-    this.textView3 = textView3;
     this.textsignup = textsignup;
     this.txtDontHaveAc = txtDontHaveAc;
     this.txtForgotPassword = txtForgotPassword;

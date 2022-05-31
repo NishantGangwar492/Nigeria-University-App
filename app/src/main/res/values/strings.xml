@@ -230,7 +230,7 @@
 
 
     <string name="premiumpendingrequestmessage"> Your previous request is still pending. Please be patient we will review your request as soon as we can.</string>
-    <string name="having_issues_contact_us">Having issues? WhatsApp 08093785476</string>
+    <string name="having_issues_contact_us">Having issues? WhatsApp 08093785476 \n OR</string>
     <string name="contact_us">https://allschool.com.ng/contact-us-now/</string>
 
     <string name="google">With Gmail</string>

@@ -234,6 +234,7 @@
                                 android:layout_gravity="center"
                                 android:fontFamily="@font/lato_regular"
                                 android:text="@string/having_issues_contact_us"
+                                android:gravity="center"
                                 android:textIsSelectable="true"
                                 android:textColor="@color/white"
                                 android:textSize="16sp" />
@@ -285,19 +286,15 @@
 <!--                android:onClick="openWhatsapp" />-->
 <TextView
                 android:id="@+id/btn_open_whatsapp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:layout_gravity="center"
                 android:fontFamily="@font/lato_regular"
                 android:text="@string/contact"
                 android:textColor="@color/blue"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold"
-                android:onClick="openWhatsapp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.495"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+                android:onClick="openWhatsapp" />
 
             <LinearLayout
                 android:id="@+id/linearLayout3"

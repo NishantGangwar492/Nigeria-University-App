@@ -53,6 +53,9 @@ public abstract class FragmentNavigationBinding extends ViewDataBinding {
   public final LinearLayout offline;
 
   @NonNull
+  public final LinearLayout openWhatsapp;
+
+  @NonNull
   public final TextView packageId;
 
   @NonNull
@@ -101,11 +104,11 @@ public abstract class FragmentNavigationBinding extends ViewDataBinding {
       LinearLayout ContactUs, LinearLayout LeaderBoard, LinearLayout aboutApp,
       LinearLayout articals, ImageView back, Button btnEarnPoint, LinearLayout chatBot,
       LinearLayout facebook, LinearLayout goPremium, LinearLayout headerlayout,
-      LinearLayout offline, TextView packageId, LinearLayout questions, LinearLayout rateUs,
-      LinearLayout schoolAnthem, LinearLayout signout, SpinKitView spinKit, LinearLayout syllabus,
-      LinearLayout takeExam, LinearLayout unnFaq, LinearLayout unnNews, TextView userEmail,
-      TextView userName, CircleImageView userProfilePicture, TextView versioncode,
-      LinearLayout weeklyContest) {
+      LinearLayout offline, LinearLayout openWhatsapp, TextView packageId, LinearLayout questions,
+      LinearLayout rateUs, LinearLayout schoolAnthem, LinearLayout signout, SpinKitView spinKit,
+      LinearLayout syllabus, LinearLayout takeExam, LinearLayout unnFaq, LinearLayout unnNews,
+      TextView userEmail, TextView userName, CircleImageView userProfilePicture,
+      TextView versioncode, LinearLayout weeklyContest) {
     super(_bindingComponent, _root, _localFieldCount);
     this.ContactUs = ContactUs;
     this.LeaderBoard = LeaderBoard;
@@ -118,6 +121,7 @@ public abstract class FragmentNavigationBinding extends ViewDataBinding {
     this.goPremium = goPremium;
     this.headerlayout = headerlayout;
     this.offline = offline;
+    this.openWhatsapp = openWhatsapp;
     this.packageId = packageId;
     this.questions = questions;
     this.rateUs = rateUs;
