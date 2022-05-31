@@ -2990,6 +2990,7 @@ drawable user_indicator_bg
 drawable verify
 drawable weeklycontest
 drawable weeklycontestnavigation
+drawable whatsapp_icon
 font lato_bold
 font lato_regular
 id ALT
@@ -3451,6 +3452,7 @@ id groups
 id guideline
 id guideline2
 id havving_issue_text
+id havving_issue_textlin
 id headerlayout
 id hideable
 id home
@@ -3623,6 +3625,7 @@ id on
 id onAttachStateChangeListener
 id onDateChanged
 id onlinePaymentFragment
+id openWhatsapp
 id open_graph
 id open_signin
 id os_bgimage_notif_bgimage
@@ -3848,7 +3851,6 @@ id textView12
 id textView13
 id textView14
 id textView2
-id textView3
 id textView4
 id textView5
 id textView6
