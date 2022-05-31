@@ -1,334 +1,334 @@
 [
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\in_sms_media.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\in_sms_media.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_point.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/dialog_point.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\select_year_view.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\select_year_view.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_online_payment.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_online_payment.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\phone_number_request_dialog.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\phone_number_request_dialog.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chat_window.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_chat_window.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_all_time.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_all_time.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_all_time.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_all_time.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_mobile_recharge.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_mobile_recharge.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/image_slider_layout.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/image_slider_layout.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_premium_process.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_premium_process.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_message_left_image.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_message_left_image.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_question.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_question.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_message_right.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_message_right.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_faq.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_faq.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_unn_news.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_unn_news.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/out_sms_media.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/out_sms_media.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_exam_preview.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_exam_preview.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_take_contest_exam.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_take_contest_exam.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\image_slider_layout.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\image_slider_layout.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_weekly_top.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_weekly_top.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\out_sms_text.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\out_sms_text.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_image_viwer.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/custom_image_viwer.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_syllabus_item_click.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_syllabus_item_click.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_lear_more_for_premium.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_lear_more_for_premium.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_custom_exam_details.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_custom_exam_details.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/select_exam_subject_view.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/select_exam_subject_view.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\preview_question_item.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\preview_question_item.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_articales.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_articales.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_leader_board.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_leader_board.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_question.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_question.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_syllabus_subject.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_syllabus_subject.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_leaderboardinfo.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_leaderboardinfo.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat_window_group.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_chat_window_group.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_take_exam.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_take_exam.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\conformation_dialoge.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\conformation_dialoge.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_question_subject.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_question_subject.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_weekly_top.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_weekly_top.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/payment_request_dialog.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/payment_request_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_about_app.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_about_app.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_article_readmore.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_article_readmore.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_message_right_image.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_message_right_image.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_about_app.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_about_app.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_year.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\row_item_year.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_group_admin.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_group_admin.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_monthly_top.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_monthly_top.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/toolbar_layout.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/toolbar_layout.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_point.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\dialog_point.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chat_list.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_chat_list.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\out_sms_media.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\out_sms_media.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home_navigation.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_home_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\question_item.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\question_item.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/in_sms_text.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/in_sms_text.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_weekly_contest.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_weekly_contest.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_details_news_web_view.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_details_news_web_view.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message_left_image.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_message_left_image.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_syllabus_item_click.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_syllabus_item_click.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_leader_board.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_leader_board.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_question_details.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_question_details.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_group_admin.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_group_admin.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recharge_payment_request_dialog.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/recharge_payment_request_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\faq_image_dialog.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\faq_image_dialog.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_custom_exam_details.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_custom_exam_details.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_articales.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_articales.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_personal.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_personal.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_lear_more_for_premium.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_lear_more_for_premium.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_notification.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_notification.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_syllabus.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_syllabus.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_unn_news.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_unn_news.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_school_anthem.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_school_anthem.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_question.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_question.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_articals.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_articals.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_result.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/dialog_result.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_question_subject.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_question_subject.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/banner_layout.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/banner_layout.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message_left.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_message_left.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_custom_exam.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_custom_exam.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\unn_news_fragment.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\unn_news_fragment.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_overview.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_overview.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_makeadmin.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_makeadmin.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_get_reward.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_get_reward.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\payment_request_dialog.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\payment_request_dialog.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/phone_number_request_dialog.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/phone_number_request_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\select_exam_subject_view.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\select_exam_subject_view.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_exam_preview.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_exam_preview.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_articals_notification.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_articals_notification.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_school_anthem.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_school_anthem.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recharge_payment_request_dialog.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\recharge_payment_request_dialog.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_unn_faq.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_unn_faq.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_full_photo_view.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_full_photo_view.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_leaderboardinfo.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_leaderboardinfo.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_navigation.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notification.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_faq.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_faq.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_activenow.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_activenow.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_publicroom.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_publicroom.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_syllabus_subject.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_syllabus_subject.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_banking_system.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_banking_system.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_latest_news.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_latest_news.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_navigation.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_navigation.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/preview_question_item.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/preview_question_item.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_question.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_question.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_monthly_top.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_monthly_top.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message_right_image.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_message_right_image.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_weekly_contest.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_weekly_contest.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_get_reward.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_get_reward.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/faq_image_dialog.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/faq_image_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat_list.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_chat_list.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chat_window_group.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_chat_window_group.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_latest_news.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_latest_news.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_leader_board.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_leader_board.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contactus.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_contactus.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_learn_more_for_besic.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_learn_more_for_besic.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home_navigation.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_home_navigation.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/unn_news_fragment.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/unn_news_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\in_sms_text.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\in_sms_text.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_authentication.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_authentication.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_custom_exam.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_custom_exam.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_article_readmore.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_article_readmore.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_take_contest_exam.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_take_contest_exam.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/conformation_dialoge.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/conformation_dialoge.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_overview.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_overview.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_publicroom.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_publicroom.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_details_news_web_view.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_details_news_web_view.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_makeadmin.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_makeadmin.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat_window.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_chat_window.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_contest_result.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_contest_result.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_layout.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\toolbar_layout.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/question_item.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/question_item.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_full_photo_view.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_full_photo_view.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/in_sms_media.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/in_sms_media.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_full_exam.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_full_exam.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_question_details.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_question_details.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_leader_board.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_leader_board.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_take_exam.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_take_exam.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_unn_faq.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_unn_faq.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_premium_process.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_premium_process.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_activenow.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_activenow.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_full_exam.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_full_exam.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_image_viwer.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\custom_image_viwer.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/select_year_view.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/select_year_view.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_online_payment.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_online_payment.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_banking_system.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_banking_system.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\banner_layout.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\banner_layout.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/row_item_year.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/row_item_year.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/out_sms_text.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/out_sms_text.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_result.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\dialog_result.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_articals_notification.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_articals_notification.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_authentication.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\activity_authentication.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_contactus.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_contactus.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contest_result.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_contest_result.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_message_left.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_message_left.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message_right.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_message_right.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_mobile_recharge.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_mobile_recharge.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_learn_more_for_besic.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\fragment_learn_more_for_besic.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_articals.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/item_articals.xml"
     },
     {
-        "merged": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_personal.xml",
-        "source": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\src\\main\\res\\layout\\item_personal.xml"
+        "merged": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_syllabus.xml",
+        "source": "/Users/sidshash/Desktop/school-app/app/src/main/res/layout/fragment_syllabus.xml"
     }
 ]

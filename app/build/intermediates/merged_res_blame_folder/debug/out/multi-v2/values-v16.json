@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\nisha\\Desktop\\dcs\\School App\\school-app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/sidshash/Desktop/school-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nisha\\.gradle\\caches\\transforms-2\\files-2.1\\35425e5e616c9642926cc5811fbab264\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/sidshash/.gradle/caches/transforms-2/files-2.1/35425e5e616c9642926cc5811fbab264/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nisha\\.gradle\\caches\\transforms-2\\files-2.1\\8bb513e637aa986ad991f6c3516f8bcd\\core-1.3.2\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/sidshash/.gradle/caches/transforms-2/files-2.1/8bb513e637aa986ad991f6c3516f8bcd/core-1.3.2/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

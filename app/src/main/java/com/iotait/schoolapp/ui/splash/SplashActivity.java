@@ -16,10 +16,13 @@ import androidx.databinding.DataBindingUtil;
 
 import com.facebook.CallbackManager;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.firebase.auth.FirebaseUser;
 import com.iotait.schoolapp.R;
+import com.iotait.schoolapp.application.AppController;
 import com.iotait.schoolapp.databinding.ActivityLoginBinding;
 import com.iotait.schoolapp.databinding.ActivitySplashBinding;
 import com.iotait.schoolapp.helper.ProgressHelper;
+import com.iotait.schoolapp.ui.homepage.HomeNavigationActivity;
 import com.iotait.schoolapp.ui.login.First;
 import com.iotait.schoolapp.ui.login.LoginActivity;
 
@@ -76,6 +79,13 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                FirebaseUser user = AppController.getFirebaseHelper().getFirebaseAuth().getCurrentUser();
+                if(user != null){
+                    Intent intent = new Intent(SplashActivity.this, HomeNavigationActivity.class);
+                    startActivity(intent);
+                    finish();
+                    return;
+                }
                 startActivity(new Intent(SplashActivity.this, First.class));
                 finish();
             }

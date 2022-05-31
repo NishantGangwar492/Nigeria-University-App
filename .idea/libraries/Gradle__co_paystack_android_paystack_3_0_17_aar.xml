@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00480c65f3eb2163bd4ffe40be5cafe8/jetified-paystack-3.0.17/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00480c65f3eb2163bd4ffe40be5cafe8/jetified-paystack-3.0.17/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00480c65f3eb2163bd4ffe40be5cafe8/jetified-paystack-3.0.17/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abea13cf4cd851a69b048943c6e34f21/jetified-paystack-3.0.17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abea13cf4cd851a69b048943c6e34f21/jetified-paystack-3.0.17/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abea13cf4cd851a69b048943c6e34f21/jetified-paystack-3.0.17/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

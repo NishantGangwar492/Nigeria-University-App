@@ -6,7 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseUser;
 import com.iotait.schoolapp.R;
+import com.iotait.schoolapp.application.AppController;
+import com.iotait.schoolapp.ui.homepage.HomeNavigationActivity;
 import com.iotait.schoolapp.ui.signup.SignUpActivty;
 
 public class First extends AppCompatActivity {
