@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbarbackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:text="Don't Have Enough Coins"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coint_dialog_text"
+            android:fontFamily="@font/lato_regular"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="35dp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_login_bg"
+
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/cancel"
+                android:textColor="@color/color_white" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight=".2"/>
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="35dp"
+                android:paddingEnd="@dimen/_20sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_login_bg"
+
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/earn_points"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_regular"
+                android:text="Important"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/lato_regular"
+                android:text="Premium users don't need Coins to Participate in the weekly contest."
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnToPremium"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn_login_bg"
+                android:fontFamily="@font/lato_bold"
+                android:paddingStart="@dimen/_20sdp"
+
+                android:paddingEnd="@dimen/_20sdp"
+                android:text="@string/Upgrade_to_Premium"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

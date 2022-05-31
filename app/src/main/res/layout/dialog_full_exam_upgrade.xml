@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_280sdp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Upgrade_to_Premium"
+            android:textColor="@color/color_white"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:padding="7dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt_title"
+            android:background="@drawable/toolbarbackground" />
+
+        <TextView
+            android:id="@+id/benefit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kindly_upgrade_to"
+            android:layout_below="@id/txt_title"
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/lato_bold"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginHorizontal="@dimen/_12sdp"/>
+
+        <LinearLayout
+            android:id="@+id/benefits_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/benefit_title"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_8sdp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_use_this_app_offline"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_get_unn_post_utme_past_questions_in_pdf"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3_get_unn_latest_news_on_whatsapp_and_as_text_message"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_call_chat_with"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            android:layout_below="@id/benefits_list"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_login_bg"
+                android:padding="0dp"
+                android:text="@string/cancel"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/btn_login_bg"
+                android:padding="0dp"
+                android:text="@string/upgrade_to_premium_now"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

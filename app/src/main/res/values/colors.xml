@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8CC63F</color>
+    <color name="colorPrimaryDark">#8CC63F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="color_black">#000000</color>
+
+
+
+    <color name="color_grey">#707070</color>
+    <color name="grey50">#1A707070</color>
+    <color name="color_white">#ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#C3C3C3</color>
+    <color name="black">#000000</color>
+    <color name="news_bg">#ADFFFFFF</color>
+    <color name="check_color">#C8C8C8</color>
+
+    <color name="add_slider_text_color">#009245</color>
+    <color name="home_bg_color">#F7F7F7</color>
+    <color name="wrong_ans_bg">#CAF44336</color>
+    <color name="leaderboardback">#E8F3F0F0</color>
+    <color name="facebook_blue">#ff0099cc</color>
+    <color name="blue">#009245</color>
+</resources>

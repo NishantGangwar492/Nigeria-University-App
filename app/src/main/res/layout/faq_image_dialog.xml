@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/root"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/takeexam_background">
+
+        <ScrollView
+            android:id="@+id/scrollViewfaq"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_400sdp"
+            android:padding="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/lin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundimg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/faq_question_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/faq_answer_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/faq_question_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/faq_answer_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/faq_question_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/faq_answer_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/faq_question_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/faq_answer_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/ques"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/lato_bold"
+                    android:text="@string/add_text"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_65sdp" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+
+            android:id="@+id/result_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scrollViewfaq">
+
+            <Button
+                android:id="@+id/ok_result_dialog_faq"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/btn_login_bg"
+                android:text="@string/share"
+                android:textColor="@color/white" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/result_ok">
+
+        </View>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

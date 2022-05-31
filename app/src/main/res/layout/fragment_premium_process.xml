@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".ui.homepage.ui.premium.PremiumProcessFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/include_toolbar"
+            layout="@layout/toolbar_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_below="@+id/include_toolbar">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="@dimen/_300sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="@dimen/_15sdp"
+                        app:cardElevation="@dimen/_1sdp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/include_toolbar">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/lato_regular"
+                            android:text="@string/unlimited_plan"
+                            android:textColor="@color/add_slider_text_color"
+                            android:textSize="@dimen/_18ssp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="@string/p1"
+                                android:textAllCaps="true"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="@dimen/_18ssp" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="@string/_1000"
+                                android:textAllCaps="true"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/_20ssp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="@string/year"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/_16ssp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/lato_regular"
+                            android:text="@string/p1_description"
+                            android:textAlignment="center"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/_16ssp" />
+
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/tvlearnmore"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="match_parent"-->
+                        <!--                            android:layout_gravity="end"-->
+                        <!--                            android:text="@string/learn_more"-->
+                        <!--                            android:textColor="#0000FF"-->
+                        <!--                            android:textSize="@dimen/_14ssp" />-->
+
+                        <Button
+                            android:id="@+id/btn_buy_p1"
+                            android:layout_width="@dimen/_180sdp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_20sdp"
+                            android:background="@drawable/btn_login_bg"
+                            android:fontFamily="@font/lato_bold"
+                            android:padding="0dp"
+                            android:text="@string/buy_now"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/color_grey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/lato_regular"
+                            android:text="@string/unlimited_planpro"
+                            android:textColor="@color/add_slider_text_color"
+                            android:textSize="@dimen/_18ssp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="@string/p2"
+                                android:textAllCaps="true"
+                                android:textColor="@color/add_slider_text_color"
+                                android:textSize="@dimen/_18ssp" />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="@string/_2000"
+                                android:textAllCaps="true"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/_20ssp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/lato_regular"
+                                android:text="@string/year"
+                                android:textColor="@color/color_black"
+                                android:textSize="@dimen/_16ssp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/lato_regular"
+                            android:text="@string/p2_description"
+                            android:textAlignment="center"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/_16ssp" />
+
+                        <TextView
+                            android:id="@+id/tvlearnmore2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="21dp"
+                            android:layout_gravity="end"
+
+                            android:text="@string/learn_more"
+                            android:textColor="#0000FF"
+                            android:textSize="@dimen/_14ssp" />
+
+                        <Button
+                            android:id="@+id/btn_buy_p2"
+                            android:layout_width="@dimen/_180sdp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_20sdp"
+                            android:background="@drawable/btn_login_bg"
+                            android:fontFamily="@font/lato_bold"
+                            android:padding="0dp"
+                            android:text="@string/buy_now"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

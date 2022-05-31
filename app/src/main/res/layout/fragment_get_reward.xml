@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mycoinbackground"
+        android:clickable="true"
+        tools:context=".ui.homepage.ui.weeklycontest.getreward.GetRewardFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <include
+                android:id="@+id/include_toolbar"
+                layout="@layout/toolbar_layout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/admob_banner"
+                android:layout_below="@+id/include_toolbar"
+                android:layout_marginTop="@dimen/_30sdp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_35sdp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="Total Earned"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_14sdp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:src="@drawable/info">
+
+                            </ImageView>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="@dimen/_60sdp"
+                                android:src="@drawable/pts">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/pointsinmycoin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_bold"
+                                android:text="150"
+                                android:textColor="@color/white"
+                                android:textSize="20sp">
+
+                            </TextView>
+                        </LinearLayout>
+
+
+                        <Button
+                            android:id="@+id/earnMorePoints"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_50sdp"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:layout_marginTop="@dimen/_50sdp"
+                            android:layout_marginEnd="@dimen/_50sdp"
+                            android:layout_marginRight="@dimen/_50sdp"
+                            android:background="@drawable/buttonborder"
+                            android:fontFamily="@font/lato_bold"
+                            android:text="EARN MORE"
+                            android:textColor="@color/add_slider_text_color"
+                            android:textSize="16sp">
+
+                        </Button>
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:src="@drawable/showimage"></ImageView>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

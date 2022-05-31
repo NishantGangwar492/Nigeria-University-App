@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="questionitem"
+            type="com.iotait.schoolapp.ui.homepage.ui.question.details.models.QuestionItem" />
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:maxLines="1"
+                android:text=""
+                android:id="@+id/question_no"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/lato_regular"
+                android:maxLines="1"
+                app:checkReport="@{questionitem.getQuestionId()}"
+                android:textAllCaps="true"
+                android:id="@+id/question_report"
+                android:textColor="@color/add_slider_text_color"
+                android:textSize="@dimen/_10ssp"/>
+        </LinearLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scenario"
+                    android:fontFamily="@font/lato_regular"
+                    android:textSize="@dimen/_16ssp"
+                    android:id="@+id/scenario_text"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_100sdp"
+                    android:contentDescription="@string/question"
+                    android:id="@+id/img_scenario"
+                    app:setImage="@{questionitem.getScenario_image()}"/>
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_scenario_details"
+                    android:text="@{questionitem.getScenario()}"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question"
+                    android:fontFamily="@font/lato_regular"
+                    android:textSize="@dimen/_16ssp"
+                    android:layout_marginTop="@dimen/_5sdp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:contentDescription="@string/question"
+                    android:id="@+id/img_question"
+                    android:visibility='@{questionitem.getQuestion_image()==null||questionitem.getQuestion_image().equals("")?View.GONE: View.VISIBLE}'
+                    app:setImage="@{questionitem.getQuestion_image()}"/>
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:text="@{questionitem.getQuestion()}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_option"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/layout_option_a"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:text="@string/a"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:textSize="@dimen/_18ssp"
+                            android:gravity="center"
+                            android:background="@drawable/option_bg"
+                            android:textColor="@color/color_black"/>
+                        <ImageView
+                            android:layout_width="@dimen/_48sdp"
+                            android:layout_height="@dimen/_48sdp"
+                            android:contentDescription="@string/question"
+                            android:id="@+id/imgOptionA"
+                            android:visibility='@{questionitem.getOptiona_image()==null||questionitem.getOptiona_image().equals("")?View.GONE: View.VISIBLE}'
+                            app:setImage="@{questionitem.getOptiona_image()}"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_margin="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@{questionitem.getOptionA()}"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@drawable/toolbarbackground"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/layout_option_b"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:text="@string/b"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:textSize="@dimen/_18ssp"
+                            android:gravity="center"
+                            android:background="@drawable/option_bg"
+                            android:textColor="@color/color_black"/>
+                        <ImageView
+                            android:layout_width="@dimen/_48sdp"
+                            android:layout_height="@dimen/_48sdp"
+                            android:contentDescription="@string/question"
+                            android:id="@+id/imgOptionB"
+                            android:visibility='@{questionitem.getOptionb_image()==null||questionitem.getOptionb_image().equals("")?View.GONE: View.VISIBLE}'
+                            app:setImage="@{questionitem.getOptionb_image()}"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_margin="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@{questionitem.getOptionB()}"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@drawable/toolbarbackground"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/layout_option_c"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:text="@string/c"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:textSize="@dimen/_18ssp"
+                            android:gravity="center"
+                            android:background="@drawable/option_bg"
+                            android:textColor="@color/color_black"/>
+                        <ImageView
+                            android:layout_width="@dimen/_48sdp"
+                            android:layout_height="@dimen/_48sdp"
+                            android:contentDescription="@string/question"
+                            android:id="@+id/imgOptionC"
+                            android:visibility='@{questionitem.getOptionc_image()==null||questionitem.getOptionc_image().equals("")?View.GONE: View.VISIBLE}'
+                            app:setImage="@{questionitem.getOptionc_image()}"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_margin="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@{questionitem.getOptionC()}"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@drawable/toolbarbackground"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/layout_option_d"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:text="@string/d"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:textSize="@dimen/_18ssp"
+                            android:gravity="center"
+                            android:background="@drawable/option_bg"
+                            android:textColor="@color/color_black"/>
+                        <ImageView
+                            android:layout_width="@dimen/_48sdp"
+                            android:layout_height="@dimen/_48sdp"
+                            android:contentDescription="@string/question"
+                            android:id="@+id/imgOptionD"
+                            android:visibility='@{questionitem.getOptiond_image()==null||questionitem.getOptiond_image().equals("")?View.GONE: View.VISIBLE}'
+                            app:setImage="@{questionitem.getOptiond_image()}"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_margin="5dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@{questionitem.getOptionD()}"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@drawable/toolbarbackground"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_show_answer"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="40dp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/btn_login_bg"
+                    android:padding="0dp"
+                    android:layout_gravity="center"
+                    android:text="@string/show_answer"
+                    android:fontFamily="@font/lato_bold"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:id="@+id/answer_layout">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer"
+                        android:fontFamily="@font/lato_regular"
+                        android:textSize="@dimen/_16ssp"/>
+                    <TextView
+                        android:text="@{questionitem.getAnswer()}"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/answer_explanation"
+                        android:fontFamily="@font/lato_regular"
+                        android:textSize="@dimen/_16ssp"
+                        android:id="@+id/txt_ans_exp"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_100sdp"
+                        android:contentDescription="@string/question"
+                        android:id="@+id/img_answer_exaplaination"
+                        app:setImage="@{questionitem.getExplain_image()}"/>
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{questionitem.getExplaination()}"
+                        android:id="@+id/txt_ans_exp_details"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+</layout>

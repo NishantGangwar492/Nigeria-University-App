@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_4sdp">
+
+        <LinearLayout
+            android:id="@+id/main_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chat_left_bg"
+            android:minWidth="@dimen/_100sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/left_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:maxWidth="@dimen/_180sdp"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_4sdp"
+                android:paddingRight="@dimen/_40sdp"
+                android:textColor="@android:color/black"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message_time"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:paddingEnd="@dimen/_4sdp"
+            android:paddingRight="@dimen/_4sdp"
+            android:paddingBottom="4dp"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_8ssp"
+            android:layout_toEndOf="@id/main_chat"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/message_sender_name"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_8ssp"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_toEndOf="@id/main_chat"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</layout>

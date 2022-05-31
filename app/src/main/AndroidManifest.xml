@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iotait.schoolapp">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".application.AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.login.First"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.homepage.ui.leaderboard.LeaderboardinfoActivity" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.Launcher"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.homepage.ui.premium.LearnmoreActivity" />
+        <activity android:name=".ui.homepage.ui.chat.GroupAdminActivity" />
+        <activity android:name=".ui.homepage.ui.chat.FullPhotoViewActivity" />
+        <activity
+            android:name=".ui.homepage.ui.chat.ChatWindowGroupActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ui.homepage.ui.chat.ChatWindowActivity" /> <!-- <meta-data -->
+        <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
+        <!-- android:resource="@color/colorAccent" /> -->
+        <activity android:name=".ui.homepage.ui.articlereadmore.ArticleReadmoreActivity" />
+        <activity android:name=".ui.homepage.ui.chat.ChatListActivty" /> <!-- metadata for paystack -->
+        <activity
+            android:name=".ui.homepage.ui.detailsnews.DetailsNewsWebView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.homepage.HomeNavigationActivity"
+            android:hardwareAccelerated="true"
+            android:noHistory="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor"
+            android:theme="@style/AppTheme.Launcher"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.signup.SignUpActivty"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.authentication.AuthenticationActivty"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="nosensor" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/CHANNEL_ID" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_test_983fafb18046e47fbdb96b25c09daa298189cdea" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_premium" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/CHANNEL_ID" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+
+        <service
+            android:name=".notification.chatnotif.ReceivedNotifications"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.iotait.schoolapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+    </application>
+
+</manifest>

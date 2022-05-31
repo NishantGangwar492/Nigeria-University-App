@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        tools:context=".ui.homepage.ui.premium.mobileprecharge.MobileRechargeFragment">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include_toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:text="@string/mobile_recharge_text"
+                    android:textColor="@color/color_black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/include_toolbar" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="@dimen/_450sdp"
+                    android:layout_marginTop="8dp"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    app:cardElevation="@dimen/_1sdp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_banner">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/btn_submit"
+                            android:layout_width="200dp"
+                            android:layout_height="35dp"
+                            android:layout_above="@id/txt_close"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_login_bg"
+                            android:fontFamily="@font/lato_bold"
+                            android:padding="0dp"
+                            android:text="@string/submit1"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="@+id/piked_time"
+                            app:layout_constraintStart_toStartOf="@+id/piked_time"
+                            app:layout_constraintTop_toBottomOf="@+id/piked_time" />
+
+                        <TextView
+                            android:id="@+id/txt_close"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:fontFamily="@font/lato_regular"
+                            android:gravity="center"
+                            android:text="@string/close"
+                            android:textColor="@color/color_grey"
+                            android:textSize="@dimen/_18ssp" />
+
+                        <androidx.core.widget.NestedScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@id/btn_submit"
+                            android:fillViewport="true">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="@dimen/_10sdp">
+
+
+                                <EditText
+                                    android:id="@+id/edit_full_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/full_name"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/full_name"
+                                    android:inputType="textPersonName"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin1"
+
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin2"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin3"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin4"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin5"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin6"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin7"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin8"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin9"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <EditText
+                                    android:id="@+id/edit_pin10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/pin10"
+                                    android:inputType="number"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/edit_total_amount"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:autofillHints="@string/total_amount"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/total_amount"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp" />
+
+                                <TextView
+                                    android:id="@+id/edit_recharge_card_type"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:autofillHints="@string/recharge_card_type"
+                                    android:background="@android:color/transparent"
+                                    android:drawableEnd="@drawable/ic_drop"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:hint="@string/recharge_card_type"
+                                    android:padding="@dimen/_5sdp"
+                                    android:textColor="@color/color_black"
+                                    android:textColorHint="@color/color_black"
+                                    android:textSize="@dimen/_18ssp" />
+
+                                <TextView
+                                    android:id="@+id/edit_mtn"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/lato_regular"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_5sdp"
+                                    android:text="@string/mtn"
+                                    android:textColor="@color/color_black"
+                                    android:textSize="@dimen/_18ssp" />
+
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground" />
+
+                                <View
+                                    android:id="@+id/view1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                                <View
+                                    android:id="@+id/view10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@drawable/toolbarbackground"
+                                    android:visibility="gone" />
+
+                            </LinearLayout>
+                        </androidx.core.widget.NestedScrollView>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.MultiplePulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:SpinKit_Color="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include_toolbar" />
+
+        <include
+            android:id="@+id/include_toolbar"
+            layout="@layout/toolbar_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

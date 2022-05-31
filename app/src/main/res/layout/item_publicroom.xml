@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/publicimage"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/ic_user"/>
+
+        <LinearLayout
+            android:id="@+id/linearlayoutinroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toStartOf="@+id/joinnow"
+            android:layout_toEndOf="@+id/publicimage"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/publicname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical Students"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_11sdp" />
+
+            <TextView
+                android:id="@+id/total_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25/50 people" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/joinnow"
+            android:textSize="@dimen/_9sdp"
+            android:textColor="#009245"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="14dp"
+            android:gravity="right"
+            android:text="JOIN NOW" />
+
+
+    </RelativeLayout>
+
+
+</layout>

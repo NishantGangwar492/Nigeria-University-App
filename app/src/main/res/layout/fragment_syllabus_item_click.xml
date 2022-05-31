@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        tools:context=".ui.homepage.ui.syllabus.syllabusclickfragment.SyllabusItemClickFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:elevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/toolbarbackground"
+                    app:elevation="0dp"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.5"
+                            android:gravity="center">
+
+                            <ImageButton
+                                android:id="@+id/back"
+                                android:layout_width="@dimen/_36sdp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:background="@null"
+                                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8.5">
+
+                            <TextView
+                                android:id="@+id/toolbarSyllabus"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/_20sdp"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="SYLLABUS"
+                                android:textColor="@color/white"
+                                android:textSize="16sp">
+
+                            </TextView>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/appBarLayout">
+
+                <ScrollView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <!--                        <LinearLayout-->
+                        <!--                            android:id="@+id/textyear"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="35dp"-->
+                        <!--                            android:layout_marginStart="24dp"-->
+                        <!--                            android:layout_marginTop="32dp"-->
+                        <!--                            android:layout_marginEnd="24dp"-->
+                        <!--                            android:orientation="horizontal">-->
+
+                        <!--                            <com.iotait.schoolapp.utils.CustomTextText-->
+                        <!--                                android:id="@+id/txt_selected_year"-->
+                        <!--                                android:layout_width="match_parent"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:drawableRight="@drawable/ic_drop"-->
+                        <!--                                android:drawablePadding="@dimen/_10sdp"-->
+                        <!--                                android:fontFamily="@font/lato_bold"-->
+                        <!--                                android:gravity="center"-->
+                        <!--                                android:hint="@string/select_year"-->
+                        <!--                                android:textSize="@dimen/_20ssp" />-->
+                        <!--                        </LinearLayout>-->
+
+                        <!--                        <View-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="1dp"-->
+                        <!--                            android:layout_below="@+id/textyear"-->
+                        <!--                            android:layout_marginStart="24dp"-->
+                        <!--                            android:layout_marginTop="2dp"-->
+                        <!--                            android:layout_marginEnd="24dp"-->
+                        <!--                            android:background="@drawable/toolbarbackground" />-->
+
+                        <LinearLayout
+                            android:id="@+id/subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="@dimen/_40sdp"
+                            android:layout_marginLeft="@dimen/_40sdp"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:layout_marginEnd="@dimen/_40sdp"
+                            android:layout_marginRight="@dimen/_40sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/subjectview"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato_bold"
+                                android:gravity="center"
+                                android:text="ENGLISH"
+                                android:textColor="@color/black"
+                                android:textSize="18sp">
+
+                            </TextView>
+
+                            <View
+
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginStart="24dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="24dp"
+                                android:background="@drawable/toolbarbackground" />
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/syllabustext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/subject"
+                            android:layout_marginStart="@dimen/_40sdp"
+                            android:layout_marginLeft="@dimen/_40sdp"
+                            android:layout_marginTop="@dimen/_40sdp"
+                            android:layout_marginEnd="@dimen/_40sdp"
+                            android:layout_marginRight="@dimen/_40sdp"
+                            android:fontFamily="@font/lato_bold"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_below="@+id/syllabustext">
+
+                        </View>
+                    </RelativeLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.Large.ThreeBounce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/add_slider_text_color" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</layout>

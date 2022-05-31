@@ -1,0 +1,154 @@
+package com.iotait.schoolapp.databinding;
+import com.iotait.schoolapp.R;
+import com.iotait.schoolapp.BR;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import android.view.View;
+@SuppressWarnings("unchecked")
+public class ActivityArticleReadmoreBindingImpl extends ActivityArticleReadmoreBinding  {
+
+    @Nullable
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    @Nullable
+    private static final android.util.SparseIntArray sViewsWithIds;
+    static {
+        sIncludes = new androidx.databinding.ViewDataBinding.IncludedLayouts(20);
+        sIncludes.setIncludes(1, 
+            new String[] {"banner_layout"},
+            new int[] {2},
+            new int[] {com.iotait.schoolapp.R.layout.banner_layout});
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.appBarLayout, 3);
+        sViewsWithIds.put(R.id.toolbar, 4);
+        sViewsWithIds.put(R.id.backbutton, 5);
+        sViewsWithIds.put(R.id.scrollView, 6);
+        sViewsWithIds.put(R.id.articleprofile, 7);
+        sViewsWithIds.put(R.id.writername, 8);
+        sViewsWithIds.put(R.id.writerDesignation, 9);
+        sViewsWithIds.put(R.id.pubDate, 10);
+        sViewsWithIds.put(R.id.title, 11);
+        sViewsWithIds.put(R.id.articlemain, 12);
+        sViewsWithIds.put(R.id.imagedislike, 13);
+        sViewsWithIds.put(R.id.dislike, 14);
+        sViewsWithIds.put(R.id.imagelike, 15);
+        sViewsWithIds.put(R.id.like, 16);
+        sViewsWithIds.put(R.id.loshare, 17);
+        sViewsWithIds.put(R.id.imageshare, 18);
+        sViewsWithIds.put(R.id.textView11, 19);
+    }
+    // views
+    @NonNull
+    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    @NonNull
+    private final android.widget.RelativeLayout mboundView1;
+    // variables
+    // values
+    // listeners
+    // Inverse Binding Event Handlers
+
+    public ActivityArticleReadmoreBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
+    }
+    private ActivityArticleReadmoreBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+        super(bindingComponent, root, 1
+            , (com.iotait.schoolapp.databinding.BannerLayoutBinding) bindings[2]
+            , (com.google.android.material.appbar.AppBarLayout) bindings[3]
+            , (android.widget.TextView) bindings[12]
+            , (de.hdodenhof.circleimageview.CircleImageView) bindings[7]
+            , (android.widget.ImageButton) bindings[5]
+            , (android.widget.TextView) bindings[14]
+            , (android.widget.ImageView) bindings[13]
+            , (android.widget.ImageView) bindings[15]
+            , (android.widget.ImageView) bindings[18]
+            , (android.widget.TextView) bindings[16]
+            , (android.widget.LinearLayout) bindings[17]
+            , (android.widget.TextView) bindings[10]
+            , (android.widget.ScrollView) bindings[6]
+            , (android.widget.TextView) bindings[19]
+            , (android.widget.TextView) bindings[11]
+            , (androidx.appcompat.widget.Toolbar) bindings[4]
+            , (android.widget.TextView) bindings[9]
+            , (android.widget.TextView) bindings[8]
+            );
+        setContainedBinding(this.admobBanner);
+        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0.setTag(null);
+        this.mboundView1 = (android.widget.RelativeLayout) bindings[1];
+        this.mboundView1.setTag(null);
+        setRootTag(root);
+        // listeners
+        invalidateAll();
+    }
+
+    @Override
+    public void invalidateAll() {
+        synchronized(this) {
+                mDirtyFlags = 0x2L;
+        }
+        admobBanner.invalidateAll();
+        requestRebind();
+    }
+
+    @Override
+    public boolean hasPendingBindings() {
+        synchronized(this) {
+            if (mDirtyFlags != 0) {
+                return true;
+            }
+        }
+        if (admobBanner.hasPendingBindings()) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean setVariable(int variableId, @Nullable Object variable)  {
+        boolean variableSet = true;
+            return variableSet;
+    }
+
+    @Override
+    public void setLifecycleOwner(@Nullable androidx.lifecycle.LifecycleOwner lifecycleOwner) {
+        super.setLifecycleOwner(lifecycleOwner);
+        admobBanner.setLifecycleOwner(lifecycleOwner);
+    }
+
+    @Override
+    protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
+        switch (localFieldId) {
+            case 0 :
+                return onChangeAdmobBanner((com.iotait.schoolapp.databinding.BannerLayoutBinding) object, fieldId);
+        }
+        return false;
+    }
+    private boolean onChangeAdmobBanner(com.iotait.schoolapp.databinding.BannerLayoutBinding AdmobBanner, int fieldId) {
+        if (fieldId == BR._all) {
+            synchronized(this) {
+                    mDirtyFlags |= 0x1L;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    protected void executeBindings() {
+        long dirtyFlags = 0;
+        synchronized(this) {
+            dirtyFlags = mDirtyFlags;
+            mDirtyFlags = 0;
+        }
+        // batch finished
+        executeBindingsOn(admobBanner);
+    }
+    // Listener Stub Implementations
+    // callback impls
+    // dirty flag
+    private  long mDirtyFlags = 0xffffffffffffffffL;
+    /* flag mapping
+        flag 0 (0x1L): admobBanner
+        flag 1 (0x2L): null
+    flag mapping end*/
+    //end
+}

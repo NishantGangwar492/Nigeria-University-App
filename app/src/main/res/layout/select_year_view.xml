@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="@dimen/_280sdp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_150sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_year"
+                android:textColor="@color/color_white"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:padding="7dp"
+                android:id="@+id/txt_title"
+                android:background="@drawable/toolbarbackground"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearlist"
+                android:layout_margin="5dp"
+                android:layout_below="@id/txt_title"
+                android:nestedScrollingEnabled="false"/>
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/spin_kit_year"
+                style="@style/SpinKitView.Large.MultiplePulse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/colorPrimaryDark"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
